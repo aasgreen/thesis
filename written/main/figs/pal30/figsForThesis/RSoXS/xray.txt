@@ -1,0 +1,3 @@
+x labels (rows): q, A-1, from 0.00303 - 0.07277 evenly spaced intervals
+y labels (columns): T, °C, from 37 - 112.5°C evenly spaced intervals
+z labels (value): I, a.u., intensity
