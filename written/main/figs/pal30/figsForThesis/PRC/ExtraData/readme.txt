@@ -1,1 +1,0 @@
-D:\Dropbox\Films\PAL30\PAL30\Data\PolarizationCurrentMeasurements\PAL30-28-09-2016\Cell-A4\Run3
