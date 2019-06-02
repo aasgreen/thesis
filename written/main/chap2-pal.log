@@ -3,11 +3,20 @@ entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**aagreenthesis.tex
-(./aagreenthesis.tex
+**chap2-pal.tex
+(./chap2-pal.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
-(./thesis.cls
+(/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2012/05/23 Federico Garcia
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks14
+\verbatim@line=\toks15
+\verbatim@in@stream=\read1
+)
+Preamble taken from file `aagreenthesis'
+(./aagreenthesis.tex (./thesis.cls
 Document Class: thesis 2014/03/27
 
 --------------------------------------------------------------
@@ -44,7 +53,7 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \UL@box=\box26
 \UL@hyphenbox=\box27
 \UL@skip=\skip43
-\UL@hook=\toks14
+\UL@hook=\toks16
 \UL@height=\dimen103
 \UL@pe=\count88
 \UL@pixel=\dimen104
@@ -62,7 +71,7 @@ Package: macros
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks15
+\@emptytoks=\toks17
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -73,8 +82,8 @@ Package: todonotes 2012/07/25
  (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
  (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks16
-\XKV@tempa@toks=\toks17
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
  (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
 \XKV@depth=\count92
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -103,7 +112,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks18
+\pgfutil@everybye=\toks20
 \pgfutil@tempdima=\dimen106
 \pgfutil@tempdimb=\dimen107
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -131,10 +140,10 @@ Package graphics Info: Driver file: pdftex.def on input line 95.
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks19
-\pgfkeys@temptoks=\toks20
+\pgfkeys@pathtoks=\toks21
+\pgfkeys@temptoks=\toks22
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks21
+\pgfkeys@tmptoks=\toks23
 ))
 \pgf@x=\dimen110
 \pgf@y=\dimen111
@@ -145,14 +154,14 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 \pgf@xc=\dimen116
 \pgf@yc=\dimen117
 \w@pgf@writea=\write3
-\r@pgf@reada=\read1
+\r@pgf@reada=\read2
 \c@pgf@counta=\count94
 \c@pgf@countb=\count95
 \c@pgf@countc=\count96
 \c@pgf@countd=\count97
-\t@pgf@toka=\toks22
-\t@pgf@tokb=\toks23
-\t@pgf@tokc=\toks24
+\t@pgf@toka=\toks24
+\t@pgf@tokb=\toks25
+\t@pgf@tokc=\toks26
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -173,9 +182,9 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 \pgfmath@dimen=\dimen118
 \pgfmath@count=\count100
 \pgfmath@box=\box30
-\pgfmath@toks=\toks25
-\pgfmath@stack@operand=\toks26
-\pgfmath@stack@operation=\toks27
+\pgfmath@toks=\toks27
+\pgfmath@stack@operand=\toks28
+\pgfmath@stack@operation=\toks29
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count101
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
@@ -258,8 +267,8 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen145
 \pgffor@skip=\dimen146
-\pgffor@stack=\toks28
-\pgffor@toks=\toks29
+\pgffor@stack=\toks30
+\pgffor@toks=\toks31
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
@@ -344,7 +353,6 @@ Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
 Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
@@ -536,13 +544,13 @@ Package: siunitx 2016/03/01 v2.6q A comprehensive (SI) units package
 Package: amstext 2000/06/29 v2.01 AMS text
  (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks30
+\@emptytoks=\toks32
 \ex@=\dimen191
 )) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen192
 \extrarowheight=\dimen193
-\NC@list=\toks31
+\NC@list=\toks33
 \extratabsurround=\skip55
 \backup@length=\skip56
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -705,7 +713,7 @@ Package: l3keys2e 2016/01/19 v6377 LaTeX2e option processing using LaTeX3 keys
 . 
 . Defining command \__siunitx_bookmark_si:w with sig. 'om' on line 7400.
 .................................................
-\g__file_internal_ior=\read2
+\g__file_internal_ior=\read3
  (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator.sty
 Package: translator 2010/06/12 ver 1.10
  (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator-language-mappings.tex))) (/usr/share/texlive/texmf-dist/tex/latex/physics/physics.sty
@@ -741,21 +749,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \dotsspace@=\muskip17
 \c@parentequation=\count179
 \dspbrk@lvl=\count180
-\tag@help=\toks32
+\tag@help=\toks34
 \row@=\count181
 \column@=\count182
 \maxfields@=\count183
-\andhelp@=\toks33
+\andhelp@=\toks35
 \eqnshift@=\dimen264
 \alignsep@=\dimen265
 \tagshift@=\dimen266
 \tagwidth@=\dimen267
 \totwidth@=\dimen268
 \lineht@=\dimen269
-\@envbody=\toks34
+\@envbody=\toks36
 \multlinegap=\skip62
 \multlinetaggap=\skip63
-\mathdisplay@stack=\toks35
+\mathdisplay@stack=\toks37
 LaTeX Info: Redefining \[ on input line 2735.
 LaTeX Info: Redefining \] on input line 2736.
 )
@@ -1656,12 +1664,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_shortintertext_sep=\dimen276
 ) (/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2012/05/23 Federico Garcia
- (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks36
-\verbatim@line=\toks37
-\verbatim@in@stream=\read3
-)) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
@@ -1670,23 +1673,23 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 Putting page number on short ToC
 Putting page number on short LoF
 Putting page number on short LoT
-(./aagreenthesis.aux)
-\openout1 = `aagreenthesis.aux'.
+)) (./chap2-pal.aux)
+\openout1 = `chap2-pal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count185
@@ -1712,7 +1715,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \AtBeginShipoutBox=\box65
-Package hyperref Info: Link coloring OFF on input line 73.
+Package hyperref Info: Link coloring OFF on input line 3.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1720,299 +1723,19 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count191
 )
-LaTeX Info: Redefining \ref on input line 73.
-LaTeX Info: Redefining \pageref on input line 73.
-LaTeX Info: Redefining \nameref on input line 73.
- (./aagreenthesis.out) (./aagreenthesis.out)
+LaTeX Info: Redefining \ref on input line 3.
+LaTeX Info: Redefining \pageref on input line 3.
+LaTeX Info: Redefining \nameref on input line 3.
+ (./chap2-pal.out) (./chap2-pal.out)
 \@outlinefile=\write4
-\openout4 = `aagreenthesis.out'.
+\openout4 = `chap2-pal.out'.
 
  (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 )
-Making Title Page
-Making Approval Page
-[1
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Making Abstract Page
-[2
-
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 73.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 73.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Making Dedication Page
-[3
-
-]
-centered
-Making Acknowledgement Page
-[4
-
-
-]
-centered
-Making ToC Page
-Making Short ToC...
-[5
-
-
-]
-centered
-Short Chapter (page numbered)
-(./aagreenthesis.toc)
-\tf@toc=\write5
-\openout5 = `aagreenthesis.toc'.
-
-
-Making LoT Page
-Making Short LoT...
-[6
-
-]
-centered
-Short Chapter (page numbered)
-(./aagreenthesis.lot)
-\tf@lot=\write6
-\openout6 = `aagreenthesis.lot'.
-
-
-Making LoF Page
-Making Short LoF...
-[7
-
-]
-centered
-Short Chapter (page numbered)
-(./aagreenthesis.lof)
-\tf@lof=\write7
-\openout7 = `aagreenthesis.lof'.
-
-
-
-
--------------------Beginning Body----------------------
-
-
-[8
-
-]
-\c__siunitx_mathsf_int=\count192
-\c__siunitx_mathtt_int=\count193
- (./macros.tex
-
-./macros.tex:2: LaTeX Error: Command \nt already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \newcommand{\nt}[1]{{{\color{red} #1}}}
-                                           
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:3: LaTeX Error: Command \nfour already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...and{\nfour}[1]{\ensuremath{\mathrm{PAL}30}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:4: LaTeX Error: Command \smcspf already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 ...emath{\mathrm{SmC}_\mathrm{S}P_\mathrm{F}}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:5: LaTeX Error: Command \smcapf already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...emath{\mathrm{SmC}_\mathrm{A}P_\mathrm{F}}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:6: LaTeX Error: Command \smcapa already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...emath{\mathrm{SmC}_\mathrm{A}P_\mathrm{A}}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:7: LaTeX Error: Command \smcspa already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 ...emath{\mathrm{SmC}_\mathrm{S}P_\mathrm{A}}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:8: LaTeX Error: Command \smcspalpha already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 ...lpha}[1]{\ensuremath{\mathrm{SmCP}_\alpha}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:9: LaTeX Error: Command \smapa already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 ...}[1]{\ensuremath{\mathrm{SmA}P_\mathrm{A}}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:10: LaTeX Error: Command \smapf already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 ...[1]{\ensuremath{\mathrm{SmA}P_\mathrm{F}}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:11: LaTeX Error: Command \smapalpha already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 ...pha}[1]{\ensuremath{\mathrm{SmAP}_\alpha}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:12: LaTeX Error: Command \smapr already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 ...[1]{\ensuremath{\mathrm{SmAP}_\mathrm{R}}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:13: LaTeX Error: Command \smaptwo already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 ...[1]{\ensuremath{\mathrm{SmAP}_\mathrm{2}}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:14: LaTeX Error: Command \smcpalpha already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 ...a}[1]{\ensuremath{\mathrm{Sm(CP)}_\alpha}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) (./chap1.tex
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 1.
-centered
-) (./chap2-pal.tex
-
-./chap2-pal.tex:2: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \usepackage
-               {macros}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[1
-
-
-]
- \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 4.
@@ -2022,6 +1745,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\alpha' on input line 4.
 
 centered
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 25.
@@ -2040,17 +1771,23 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\alpha' on input line 32.
 
 
-LaTeX Warning: Reference `sec:intro:pl-aligned' on page 2 undefined on input line 34.
+LaTeX Warning: Reference `sec:intro:pl-aligned' on page 1 undefined on input line 34.
 
+[1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Warning: Reference `fig:pal30:planar' on page 2 undefined on input line 39.
 
 
+LaTeX Warning: Citation `ReddyInfluencefluorinesubstituent2003' on page 2 undefined on input line 42.
+
+
 LaTeX Warning: Reference `sec:intro:pal30-phases' on page 2 undefined on input line 43.
 
-[2
-
-] <figs/pal30/textureSM2/sm2Textures100.png, id=136, 1128.8574pt x 247.1634pt>
+<figs/pal30/textureSM2/sm2Textures100.png, id=62, 1128.8574pt x 247.1634pt>
 File: figs/pal30/textureSM2/sm2Textures100.png Graphic file (type png)
  <use figs/pal30/textureSM2/sm2Textures100.png>
 Package pdftex.def Info: figs/pal30/textureSM2/sm2Textures100.png used on input line 51.
@@ -2065,12 +1802,12 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png, id=140, 551.4201pt x 327.3831pt>
+<figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png, id=66, 551.4201pt x 327.3831pt>
 File: figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png Graphic file (type png)
  <use figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png>
 Package pdftex.def Info: figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png used on input line 77.
 (pdftex.def)             Requested size: 375.80542pt x 223.1221pt.
- [3 <./figs/pal30/textureSM2/sm2Textures100.png>]
+ [2 <./figs/pal30/textureSM2/sm2Textures100.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 86.
@@ -2103,37 +1840,36 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\alpha' on input line 91.
 
-) (./aagreenthesis.bbl [4 <./figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png>]
+(./chap2-pal.bbl [3 <./figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png>] [4]
 centered
 ) [5
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
- (./aagreenthesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
-Package rerunfilecheck Info: File `aagreenthesis.out' has not changed.
-(rerunfilecheck)             Checksum: 331758B35E3CF765953670839AE96E6E;896.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
+ (./chap2-pal.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
+Package rerunfilecheck Info: File `chap2-pal.out' has not changed.
+(rerunfilecheck)             Checksum: BB29B1D826F43546798D939A72525F66;848.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  ) 
 Here is how much of TeX's memory you used:
- 27234 strings out of 493029
- 539713 string characters out of 6136235
- 558235 words of memory out of 5000000
- 30329 multiletter control sequences out of 15000+600000
- 21070 words of font info for 59 fonts, out of 8000000 for 9000
+ 27195 strings out of 493029
+ 539373 string characters out of 6136235
+ 558368 words of memory out of 5000000
+ 30324 multiletter control sequences out of 15000+600000
+ 18496 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,9n,77p,10449b,1197s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on aagreenthesis.pdf (13 pages, 1863857 bytes).
+ 78i,9n,76p,10488b,959s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on chap2-pal.pdf (5 pages, 1838108 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 180 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 

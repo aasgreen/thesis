@@ -1,20 +1,24 @@
 \documentclass[defaultstyle,11pt]{thesis}
-
-\usepackage{amssymb}		% to get all AMS symbols
-\usepackage{graphicx}		% to insert figures
-\usepackage{hyperref}		% PDF hyperreferences??
-\usepackage[per-mode=symbol]{siunitx}
-\usepackage{xcolor}
-\usepackage{physics}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{mathtools}
+\usepackage{macros}
+%\usepackage{amssymb}		% to get all AMS symbols
+%\usepackage{todonotes}
+%\usepackage{graphicx}		% to insert figures
+%\usepackage{hyperref}		% PDF hyperreferences??
+%\usepackage[per-mode=symbol]{siunitx}
+%\usepackage{xcolor}
+%\usepackage{physics}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{mathtools}
+%\usepackage{subfiles}
+%\usepackage[T1]{fontenc}
+%%\usepackage[utf8]{inputenc}
+\def\biblio{\bibliographystyle{plain}\bibliography{pal30}}  %
 
 %%%%%%%%%%%%   All the preamble material:   %%%%%%%%%%%%
 
 \title{A Defective Thesis: Studying the Behaviour of Defects in
 Liquid-Crystalline Materials}
-
 \author{A. A. S.}{Green}
 
 \otherdegrees{B.Sc., University of Calgary 2011 \\
@@ -68,14 +72,15 @@ Liquid-Crystalline Materials}
 
 \begin{document}
 
+\def\biblio{}
 \input macros.tex
-\input chap1.tex
-\input chap2-pal.tex
+\subfile{chap1.tex}
+\subfile{chap2-pal.tex}
 
 %%%%%%%%%   then the Bibliography, if any   %%%%%%%%%
 \bibliographystyle{plain}	% or "siam", or "alpha", etc.
-\nocite{*}		% list all refs in database, cited or not
-\bibliography{refs}		% Bib database in "refs.bib"
+%\nocite{*}		% list all refs in database, cited or not
+\bibliography{pal30,refs}		% Bib database in "refs.bib"
 
 %%%%%%%%%   then the Appendices, if any   %%%%%%%%%
 \appendix
