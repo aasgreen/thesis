@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.9)  1 JUN 2019 21:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.9)  13 JUN 2019 20:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -306,6 +306,8 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Cskip=\skip47
 )
 \c@@todonotes@numberoftodonotes=\count116
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/xr-hyper.sty
+Package: xr-hyper 2000/03/22 v6.00beta4 eXternal References (DPC)
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -370,6 +372,7 @@ File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
 Package hyperref Info: Hyper figures OFF on input line 4443.
 Package hyperref Info: Link nesting OFF on input line 4448.
 Package hyperref Info: Hyper index ON on input line 4451.
@@ -391,7 +394,7 @@ Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
 Package hyperref Info: backreferencing OFF on input line 6310.
-Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring ON on input line 6313.
 Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
@@ -1667,10 +1670,35 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )))
+Runaway argument?
+{\ensuremath {\mathrm {SmC*}} \par \externaldocument [I-]{chap1} \externaldocument \ETC.
+./aagreenthesis.tex:16: File ended while scanning use of \@argdef.
+<inserted text> 
+                \par 
+l.16 \def
+         \biblio{\bibliographystyle{plain}\bibliography{pal30}}  %
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
 Putting page number on short ToC
 Putting page number on short LoF
 Putting page number on short LoT
-(./aagreenthesis.aux)
+(./aagreenthesis.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+)
 \openout1 = `aagreenthesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
@@ -1712,7 +1740,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \AtBeginShipoutBox=\box65
-Package hyperref Info: Link coloring OFF on input line 73.
+Package hyperref Info: Link coloring ON on input line 73.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1769,16 +1797,16 @@ Making Short ToC...
 ]
 centered
 Short Chapter (page numbered)
-(./aagreenthesis.toc)
+(./aagreenthesis.toc [6
+
+])
 \tf@toc=\write5
 \openout5 = `aagreenthesis.toc'.
 
 
 Making LoT Page
 Making Short LoT...
-[6
-
-]
+[7]
 centered
 Short Chapter (page numbered)
 (./aagreenthesis.lot)
@@ -1788,12 +1816,14 @@ Short Chapter (page numbered)
 
 Making LoF Page
 Making Short LoF...
-[7
+[8
 
 ]
 centered
 Short Chapter (page numbered)
-(./aagreenthesis.lof)
+(./aagreenthesis.lof [9
+
+])
 \tf@lof=\write7
 \openout7 = `aagreenthesis.lof'.
 
@@ -1803,337 +1833,269 @@ Short Chapter (page numbered)
 -------------------Beginning Body----------------------
 
 
-[8
-
-]
+[10]
 \c__siunitx_mathsf_int=\count192
 \c__siunitx_mathtt_int=\count193
- (./macros.tex
-
-./macros.tex:2: LaTeX Error: Command \nt already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \newcommand{\nt}[1]{{{\color{red} #1}}}
-                                           
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:3: LaTeX Error: Command \nfour already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...and{\nfour}[1]{\ensuremath{\mathrm{PAL}30}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:4: LaTeX Error: Command \smcspf already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 ...emath{\mathrm{SmC}_\mathrm{S}P_\mathrm{F}}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:5: LaTeX Error: Command \smcapf already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...emath{\mathrm{SmC}_\mathrm{A}P_\mathrm{F}}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:6: LaTeX Error: Command \smcapa already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...emath{\mathrm{SmC}_\mathrm{A}P_\mathrm{A}}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:7: LaTeX Error: Command \smcspa already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 ...emath{\mathrm{SmC}_\mathrm{S}P_\mathrm{A}}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:8: LaTeX Error: Command \smcspalpha already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 ...lpha}[1]{\ensuremath{\mathrm{SmCP}_\alpha}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:9: LaTeX Error: Command \smapa already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 ...}[1]{\ensuremath{\mathrm{SmA}P_\mathrm{A}}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:10: LaTeX Error: Command \smapf already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 ...[1]{\ensuremath{\mathrm{SmA}P_\mathrm{F}}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:11: LaTeX Error: Command \smapalpha already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 ...pha}[1]{\ensuremath{\mathrm{SmAP}_\alpha}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:12: LaTeX Error: Command \smapr already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 ...[1]{\ensuremath{\mathrm{SmAP}_\mathrm{R}}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:13: LaTeX Error: Command \smaptwo already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 ...[1]{\ensuremath{\mathrm{SmAP}_\mathrm{2}}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./macros.tex:14: LaTeX Error: Command \smcpalpha already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 ...a}[1]{\ensuremath{\mathrm{Sm(CP)}_\alpha}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) (./chap1.tex
+ (./chap1.tex
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 1.
 centered
-) (./chap2-pal.tex
-
-./chap2-pal.tex:2: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \usepackage
-               {macros}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[1
+) (./chap2-pal.tex [1
 
 
 ]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 4.
+(hyperref)                removing `subscript' on input line 5.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 4.
+(hyperref)                removing `\alpha' on input line 5.
 
 centered
+<figs/pal30/prc/spacedSmRPRC.png, id=270, 356.2911pt x 283.65974pt>
+File: figs/pal30/prc/spacedSmRPRC.png Graphic file (type png)
+ <use figs/pal30/prc/spacedSmRPRC.png>
+Package pdftex.def Info: figs/pal30/prc/spacedSmRPRC.png used on input line 33.
+(pdftex.def)             Requested size: 375.80542pt x 299.20193pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/pal30/prc/3dplot-sm34.png, id=273, 708.90848pt x 284.0211pt>
+File: figs/pal30/prc/3dplot-sm34.png Graphic file (type png)
+ <use figs/pal30/prc/3dplot-sm34.png>
+Package pdftex.def Info: figs/pal30/prc/3dplot-sm34.png used on input line 42.
+(pdftex.def)             Requested size: 469.75499pt x 188.20424pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 25.
+(hyperref)                removing `subscript' on input line 49.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 25.
+(hyperref)                removing `\alpha' on input line 49.
 
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 30.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 32.
-
-
-LaTeX Warning: Reference `sec:intro:pl-aligned' on page 2 undefined on input line 34.
-
-
-LaTeX Warning: Reference `fig:pal30:planar' on page 2 undefined on input line 39.
-
-
-LaTeX Warning: Reference `sec:intro:pal30-phases' on page 2 undefined on input line 43.
-
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 54.
 [2
 
-] <figs/pal30/textureSM2/sm2Textures100.png, id=136, 1128.8574pt x 247.1634pt>
+] [3 <./figs/pal30/prc/spacedSmRPRC.png> <./figs/pal30/prc/3dplot-sm34.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 56.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 56.
+
+
+LaTeX Warning: Reference `sec:intro:pl-aligned' on page 4 undefined on input line 58.
+
+
+LaTeX Warning: Reference `sec:intro:pal30-phases' on page 4 undefined on input line 67.
+
+<figs/pal30/textureSM2/sm2Textures100.png, id=290, 1130.3028pt x 249.3315pt>
 File: figs/pal30/textureSM2/sm2Textures100.png Graphic file (type png)
  <use figs/pal30/textureSM2/sm2Textures100.png>
-Package pdftex.def Info: figs/pal30/textureSM2/sm2Textures100.png used on input line 51.
-(pdftex.def)             Requested size: 469.75499pt x 102.85374pt.
+Package pdftex.def Info: figs/pal30/textureSM2/sm2Textures100.png used on input line 75.
+(pdftex.def)             Requested size: 469.75499pt x 103.6228pt.
+ [4 <./figs/pal30/textureSM2/sm2Textures100.png>]
 
-./chap2-pal.tex:57: Undefined control sequence.
-l.57 \smcapalpha
-                {} phases are identical optically. Both phases have unit-cel...
+LaTeX Warning: Reference `sec:pal30:discussion' on page 5 undefined on input line 131.
+
+[5] <figs/pal30/prc/PRCvsTilt/T108.png, id=312, 243.91125pt x 280.52805pt>
+File: figs/pal30/prc/PRCvsTilt/T108.png Graphic file (type png)
+ <use figs/pal30/prc/PRCvsTilt/T108.png>
+Package pdftex.def Info: figs/pal30/prc/PRCvsTilt/T108.png used on input line 135.
+(pdftex.def)             Requested size: 375.80542pt x 432.22853pt.
+ <figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png, id=319, 551.4201pt x 327.3831pt>
+File: figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png Graphic file (type png)
+ <use figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png>
+Package pdftex.def Info: figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png used on input line 157.
+(pdftex.def)             Requested size: 375.80542pt x 223.1221pt.
+ [6 <./figs/pal30/prc/PRCvsTilt/T108.png>] [7 <./figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 183.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 183.
+
+<figs/pal30/prc/spacedSm2PRC.png, id=338, 356.2911pt x 283.2984pt>
+File: figs/pal30/prc/spacedSm2PRC.png Graphic file (type png)
+ <use figs/pal30/prc/spacedSm2PRC.png>
+Package pdftex.def Info: figs/pal30/prc/spacedSm2PRC.png used on input line 211.
+(pdftex.def)             Requested size: 281.85585pt x 224.11452pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/pal30/prc/3dplot-sm2.png, id=341, 708.90848pt x 284.0211pt>
+File: figs/pal30/prc/3dplot-sm2.png Graphic file (type png)
+ <use figs/pal30/prc/3dplot-sm2.png>
+Package pdftex.def Info: figs/pal30/prc/3dplot-sm2.png used on input line 223.
+(pdftex.def)             Requested size: 469.75499pt x 188.20424pt.
+ [8]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 234.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 234.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 235.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 235.
+
+[9 <./figs/pal30/prc/spacedSm2PRC.png> <./figs/pal30/prc/3dplot-sm2.png>] <figs/pal30/xraysm1/sm2-saxs-annote.png, id=357, 272.09656pt x 178.14555pt>
+File: figs/pal30/xraysm1/sm2-saxs-annote.png Graphic file (type png)
+ <use figs/pal30/xraysm1/sm2-saxs-annote.png>
+Package pdftex.def Info: figs/pal30/xraysm1/sm2-saxs-annote.png used on input line 244.
+(pdftex.def)             Requested size: 272.09589pt x 178.14511pt.
+ <figs/pal30/rsoxssm2/RSoXS-coexistanenceDiffracto.png, id=359, 433.62pt x 433.62pt>
+File: figs/pal30/rsoxssm2/RSoXS-coexistanenceDiffracto.png Graphic file (type png)
+ <use figs/pal30/rsoxssm2/RSoXS-coexistanenceDiffracto.png>
+Package pdftex.def Info: figs/pal30/rsoxssm2/RSoXS-coexistanenceDiffracto.png used on input line 262.
+(pdftex.def)             Requested size: 375.80542pt x 375.8238pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/pal30/rsoxssm2/sm2-rsoxs.png, id=362, 349.7868pt x 398.08725pt>
+File: figs/pal30/rsoxssm2/sm2-rsoxs.png Graphic file (type png)
+ <use figs/pal30/rsoxssm2/sm2-rsoxs.png>
+Package pdftex.def Info: figs/pal30/rsoxssm2/sm2-rsoxs.png used on input line 278.
+(pdftex.def)             Requested size: 375.80542pt x 427.69855pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+./chap2-pal.tex:294: Undefined control sequence.
+l.294 \smcstar
+              {} phase family of calimitics.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png, id=140, 551.4201pt x 327.3831pt>
-File: figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png Graphic file (type png)
- <use figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png>
-Package pdftex.def Info: figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png used on input line 77.
-(pdftex.def)             Requested size: 375.80542pt x 223.1221pt.
- [3 <./figs/pal30/textureSM2/sm2Textures100.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 86.
+[10 <./figs/pal30/xraysm1/sm2-saxs-annote.png>] [11 <./figs/pal30/rsoxssm2/RSoXS-coexistanenceDiffracto.png>] [12 <./figs/pal30/rsoxssm2/sm2-rsoxs.png>] <figs/pal30/rsoxssm2/xray-combined.png, id=382, 226.32555pt x 250.0542pt>
+File: figs/pal30/rsoxssm2/xray-combined.png Graphic file (type png)
+ <use figs/pal30/rsoxssm2/xray-combined.png>
+Package pdftex.def Info: figs/pal30/rsoxssm2/xray-combined.png used on input line 337.
+(pdftex.def)             Requested size: 187.89912pt x 207.60979pt.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 86.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 88.
+(hyperref)                removing `subscript' on input line 361.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 88.
+(hyperref)                removing `\alpha' on input line 361.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 89.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 89.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 91.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 91.
-
-) (./aagreenthesis.bbl [4 <./figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png>]
+) (./chap3-pal.tex [13] [14 <./figs/pal30/rsoxssm2/xray-combined.png>]
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 3.
 centered
-) [5
+<figs/pal30/textureSM2/sm1Textures100.png, id=397, 1130.3028pt x 249.3315pt>
+File: figs/pal30/textureSM2/sm1Textures100.png Graphic file (type png)
+ <use figs/pal30/textureSM2/sm1Textures100.png>
+Package pdftex.def Info: figs/pal30/textureSM2/sm1Textures100.png used on input line 12.
+(pdftex.def)             Requested size: 375.80542pt x 82.89597pt.
+ <figs/pal30/prc/spacedSm1PRC.png, id=398, 356.2911pt x 283.65974pt>
+File: figs/pal30/prc/spacedSm1PRC.png Graphic file (type png)
+ <use figs/pal30/prc/spacedSm1PRC.png>
+Package pdftex.def Info: figs/pal30/prc/spacedSm1PRC.png used on input line 21.
+(pdftex.def)             Requested size: 375.80542pt x 299.20193pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/pal30/prc/3dplot-sm1.png, id=399, 708.90848pt x 284.0211pt>
+File: figs/pal30/prc/3dplot-sm1.png Graphic file (type png)
+ <use figs/pal30/prc/3dplot-sm1.png>
+Package pdftex.def Info: figs/pal30/prc/3dplot-sm1.png used on input line 28.
+(pdftex.def)             Requested size: 375.80542pt x 150.56079pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/pal30/xraysm1/rsosxSmaT113-modified.png, id=400, 338.62788pt x 338.4759pt>
+File: figs/pal30/xraysm1/rsosxSmaT113-modified.png Graphic file (type png)
+ <use figs/pal30/xraysm1/rsosxSmaT113-modified.png>
+Package pdftex.def Info: figs/pal30/xraysm1/rsosxSmaT113-modified.png used on input line 37.
+(pdftex.def)             Requested size: 375.80542pt x 375.63522pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/pal30/xraysm1/sm1-saxs-annote.png, id=401, 279.32355pt x 178.14555pt>
+File: figs/pal30/xraysm1/sm1-saxs-annote.png Graphic file (type png)
+ <use figs/pal30/xraysm1/sm1-saxs-annote.png>
+Package pdftex.def Info: figs/pal30/xraysm1/sm1-saxs-annote.png used on input line 44.
+(pdftex.def)             Requested size: 279.32285pt x 178.14511pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./chap4-racetrack.tex [15
+
+ <./figs/pal30/textureSM2/sm1Textures100.png>] [16 <./figs/pal30/prc/spacedSm1PRC.png> <./figs/pal30/prc/3dplot-sm1.png>] [17 <./figs/pal30/xraysm1/rsosxSmaT113-modified.png (PNG copy)> <./figs/pal30/xraysm1/sm1-saxs-annote.png>]
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 4.
+centered
+) (./aagreenthesis.bbl [18
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
- (./aagreenthesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
-Package rerunfilecheck Info: File `aagreenthesis.out' has not changed.
-(rerunfilecheck)             Checksum: 331758B35E3CF765953670839AE96E6E;896.
+centered
+) [19
 
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
+ (./aagreenthesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
+
+
+Package rerunfilecheck Warning: File `aagreenthesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `aagreenthesis.out':
+(rerunfilecheck)             Before: 0AAB1C0B1EB4D082F1EBE1EE2FA31AF3;2314
+(rerunfilecheck)             After:  5796A3DFE8FD38A271CD1D0CF18401EA;2319.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
  ) 
 Here is how much of TeX's memory you used:
- 27234 strings out of 493029
- 539713 string characters out of 6136235
- 558235 words of memory out of 5000000
- 30329 multiletter control sequences out of 15000+600000
- 21070 words of font info for 59 fonts, out of 8000000 for 9000
+ 27438 strings out of 493029
+ 544081 string characters out of 6136235
+ 570930 words of memory out of 5000000
+ 30446 multiletter control sequences out of 15000+600000
+ 24479 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,9n,77p,10449b,1197s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on aagreenthesis.pdf (13 pages, 1863857 bytes).
+ 69i,12n,77p,10449b,1232s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on aagreenthesis.pdf (29 pages, 56342381 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 180 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 495 PDF objects out of 1000 (max. 8388607)
+ 413 compressed objects within 5 object streams
+ 98 named destinations out of 1000 (max. 500000)
+ 317 words of extra memory for PDF output out of 10000 (max. 10000000)
 

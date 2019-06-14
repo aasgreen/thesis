@@ -2,7 +2,8 @@
 \RequirePackage{amssymb}		% to get all AMS symbols
 \RequirePackage{todonotes}
 \RequirePackage{graphicx}		% to insert figures
-\RequirePackage{hyperref}		% PDF hyperreferences??
+\RequirePackage{xr-hyper}
+\RequirePackage[colorlinks=True, citecolor=blue]{hyperref}		% PDF hyperreferences??
 \RequirePackage[per-mode=symbol]{siunitx}
 \RequirePackage{xcolor}
 \RequirePackage{physics}
@@ -25,5 +26,12 @@
 \newcommand{\smapr}[1]{\ensuremath{\mathrm{SmAP}_\mathrm{R}}}
 \newcommand{\smaptwo}[1]{\ensuremath{\mathrm{SmAP}_\mathrm{2}}}
 \newcommand{\smcpalpha}[1]{\ensuremath{\mathrm{Sm(CP)}_\alpha}}
+\newcommand{\smcalpha}[1]{\ensuremath{\mathrm{SmC*}_\alpha}}
+\newcommand{\smcstar}[1]{\ensuremath{\mathrm{SmC*}}
+
+\externaldocument[I-]{chap1}
+\externaldocument[C2-]{chap2-pal30}
+\externaldocument[C3-]{chap3-pal30}
+\externaldocument[C4-]{chap4-racetrack}
 
 

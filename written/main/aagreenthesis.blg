@@ -6,45 +6,47 @@ Database file #1: pal30.bib
 Database file #2: refs.bib
 Warning--empty journal in ReddyInfluencefluorinesubstituent2003
 Warning--empty year in ReddyInfluencefluorinesubstituent2003
-You've used 3 entries,
+Warning--empty journal in SreenilayamOccurrenceFiveDifferent2015
+Warning--empty year in SreenilayamOccurrenceFiveDifferent2015
+You've used 7 entries,
             2118 wiz_defined-function locations,
-            520 strings with 4789 characters,
-and the built_in function-call counts, 1328 in all, are:
-= -- 122
-> -- 84
+            550 strings with 5796 characters,
+and the built_in function-call counts, 2959 in all, are:
+= -- 265
+> -- 201
 < -- 0
-+ -- 33
-- -- 30
-* -- 127
-:= -- 229
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 24
++ -- 79
+- -- 72
+* -- 279
+:= -- 515
+add.period$ -- 21
+call.type$ -- 7
+change.case$ -- 57
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 33
-empty$ -- 86
-format.name$ -- 30
-if$ -- 256
+cite$ -- 11
+duplicate$ -- 77
+empty$ -- 187
+format.name$ -- 72
+if$ -- 572
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 3
-newline$ -- 18
-num.names$ -- 6
-pop$ -- 22
+int.to.str$ -- 7
+missing$ -- 7
+newline$ -- 38
+num.names$ -- 14
+pop$ -- 51
 preamble$ -- 1
-purify$ -- 21
+purify$ -- 50
 quote$ -- 0
-skip$ -- 21
+skip$ -- 49
 stack$ -- 0
-substring$ -- 98
-swap$ -- 2
+substring$ -- 184
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
-warning$ -- 2
-while$ -- 11
-width$ -- 4
-write$ -- 33
-(There were 2 warnings)
+type$ -- 28
+warning$ -- 4
+while$ -- 23
+width$ -- 8
+write$ -- 75
+(There were 4 warnings)

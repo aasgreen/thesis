@@ -1,7 +1,9 @@
 \documentclass[aagreenthesis]{subfiles}
-\usepackage{macros}
+%\usepackage{macros}
+%\externaldocument[I-]{chap1}
 \begin{document}
 \chapter{The Discovery of Helicity in Tilted Bent-Core Smectics: \smcpalpha{}}
+
 The interplay between polarization and chirality has always been front and
 centre in the developlment of the bananna phases of liquid crystals. From the
 short-range (bilayer) chiral B2 phases\cite{link_spontaneous_1997}, to the
@@ -15,13 +17,35 @@ twist-bend and B2 phases.
 
 
 
-
-
-
-
-
-
 \section{A Brief History of Chirality in Bent-Core Smectics}
+
+
+\subsection{Conventional Phase of \nfour{phi}}
+
+To briefly recap Section~\ref{test}, the low-temperature phases of \nfour{} are conventional B2
+phases: the \smcapa{} and the \smcapf{}. 
+The conventional representation of the polarization current for the Sm3 and Sm4
+phases are shown in \autoref{fig:pal30:sm34:prc1}.
+
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.8\textwidth]{figs/pal30/prc/spacedSmRPRC.png}
+    \caption{\label{fig:pal30:sm34:prc1}}
+\end{figure}
+However, it the switching dynamics of the phases become more clear if the
+polarization current is plotted directly against the driving voltage, shown in
+\autoref{fig:pal30:sm34:prc2}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{figs/pal30/prc/3dplot-sm34.png}
+    \caption{\label{fig:pal30:sm34:prc2}}
+\end{figure}
+
+This is the end of this section.
+
+
 \section{Characteristics of the \smcpalpha{} phase}
 
 
@@ -36,12 +60,12 @@ optic axis of the liquid crystal is perpendicular to the $\vec{k}$ of the
 applied light--meaning we will be sensitive to relative orientations of the
 long-axis.
 
-In Figure~\ref{fig:pal30:planar}, the planar textures of the Sm2 phase of \nfour{} are shown.
-Comparing with previously published micropictographs reveals a strong similarity
+In \autoref{fig:pal30:planar-textures}, the planar textures of the Sm2 phase of \nfour{} are shown.
+Comparing these with previously published textures reveals a strong similarity
 to the \smcapa{}
 phases\cite{link_spontaneous_1997,ReddyInfluencefluorinesubstituent2003}. As
 discussed in Section~\ref{sec:intro:pal30-phases}, the \nfour{} phase directly below the
-Sm2 is a \smcapa{}, but with a strikingly long-range and regular conglomerate
+Sm2 is a \smcapa{}, but with strikingly long-range and regular conglomerate
 chiral structure, where the handedness is grouped together into stripes. There
 exists no clear phase transition in the textures between the Sm2 and Sm3 in
 planar aligned cells.
@@ -54,44 +78,287 @@ planar aligned cells.
 \end{figure}
 
 This similarity is due to the fact that, broadly, the \smcapa{} and
-\smcapalpha{} phases are identical optically. Both phases have unit-cells whose dielectric tensor is uniaxial (where
+\smcpalpha{} phases are identical optically. Both phases have unit-cells whose dielectric tensor is uniaxial (where
 the $\epsilon_{xx} = \epsilon_{yy}$), so the optic axis will be parallel to the
-layer normal and the texture appears like a SmA in it's ground.
+layer normal and the texture appears like a SmA in it's ground state.
 
 Both phases are polar, so with a high enough field both states will switch into
 an aligned \smcspf{} state, which gives a birefringent contrast between domains with different handedness. This contrast is
 because of the synclinic nature of the \smcspf{} phase--- because the tilt is
-now aligned between the layers the optic axis is now tilted with respect to the layer
+now aligned between the subsequent layers, the phase can organize into
+conglomerate chiral domains with the optic axis tilted with respect to the layer
 normal.
 \todo{figure describing this switching mechanism}
 
-However, the differences between these two phases is present in homoeotropic.
+We can directly measure the optical tilt in the switched state, by simply
+rotating the stage when a field has been applied such that an initially dark
+stripe becomes completely bright. The angle of this rotation is
+$2\theta_{opt}$. To observe the tilt dyanamics, we have to extend this analysis
+as we cannot rotate a stage at the \SI{20}{\hertz} frequency that these samples
+usually switch at.
+
+We can extract a measurement of the dynamic optical tilt, $\theta_\textrm{opt}$, by
+examining the contrast between the bright and dark regions of the stripe.
+Knowing that the brightness of a birefringent material viewed under cross
+polarizers is $I \propto \sin(2\theta)^2 $, the contrast between a ``bright''
+and adjacent ``dark'' stripe is given by:
+\begin{align}
+    C = \delta I = I_\textrm{bright} - I_\textrm{dark} &= \sin(2\theta_b)^2 -
+    \sin(2\theta_d)^2 \\
+&= \frac{1-\cos(4\theta_b)}{2} - \frac{1-\cos(4\theta_d)}{2} \\
+&= -\sin(2i(\theta_d+\theta_b))\sin(2(\theta_d-\theta_b))
+\end{align}
+
+Because of the symmetry of the \smcspf{} state, we know that $\theta_d
+=-\theta_b$ (the magnitude of the tilt is equal, but the sign depends on the
+chirality).
+
+This allows to directly connect the contrast with the tilt angle:
+\begin{align}
+    \label{eq:contrast-tilt}
+    C \propto\sin(4\theta_\textrm{opt}).
+\end{align}
+
+This analysis assumes that the state we are measuring can be roughly
+approximated by a \smcspf{}. This will be a good approximation at high field
+strengths, but may be false at lower fields, where the helix of the \smcpalpha
+phase may be distorted, but not switched.
+
+Plotting the result in \autoref{fig:pcVtilt} we see thresholdless optical
+switching, where the contrast (optical tilt) increases linearly with applied
+field. Interestingly, the \smcpalpha phase accesses a `dark' state, which was
+also seen in homeotropic cells, shown in \autoref{fig:pal30:homeo}. This will be
+discussed in further detail in \autoref{sec:pal30:discussion}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.8\textwidth]{figs/pal30/prc/PRCvsTilt/T108.png}
+    \caption{\label{fig:pcVtilt} Dynamic optical tilt of \smcpalpha{}. On
+    application of a field, the state briefly passes through a `dark' state,
+where the contrast decreases.}
+\end{figure}
 
 
+In conclusion, the textures of the \smcpalpha{} phase have identical
+characteristics to those of the \smcapa{}, though an interesting dark state
+emerges when viewed under dynamic conditions. 
 
 \subsubsection{Homeotropic Aligned Textures}
-Though we were unable to achieve good homeotropic alignment, we can rely on the published results of the Dublin group, who published a series of papers on the \nfour{} homolog series. Though their interpretation is wrong (\nfour{} is not an orthogonal phase), they report beautifully aligned homeotropic textures and study the response of these textures to an applied in-plane electric field. This textures are reproduced from Sreenilayam et
-al\cite{sreenilayam_properties_2012} in Figure~\ref{fig:pal30:homeo}.
+Though we were unable to achieve good homeotropic alignment, we can rely on the
+published results of the Dublin group, who published a series of papers on the
+\nfour{} homolog
+series\cite{panarin_sequence_2011,sreenilayam_properties_2012,SreenilayamOccurrenceFiveDifferent2015,sreenilayam_spontaneous_2016}.
+Though their interpretation is wrong (\nfour{} is not an orthogonal phase), they
+report beautifully aligned homeotropic textures and study the response of these
+textures to an applied in-plane electric field. These textures are reproduced from Sreenilayam et
+al\cite{sreenilayam_properties_2012} in \autoref{fig:pal30:homeo}.
 \begin{figure}[h!]
     \centering
     \includegraphics[width=.8\textwidth]{figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png}
     \caption{ \label{fig:pal30:homeo} Homeotropic textures of \nfour{}. The relevant temperatures for the Sm2 phases are \SI{104}{\degreeCelsius}, and \SI{98}{\degreeCelsius}. The biaxiality in the Sm2 is distinguished by a small `hump' with small applied field, that gets larger on cooling, and changes in character on cooling through the Sm2$\rightarrow$Sm3 phase transition at \SI{99}{\degreeCelsius}, where it broadens. Reproduced from Sreenilayam et al\cite{sreenilayam_properties_2012}.}
 \end{figure}
 
-The phase of interest, Sm2, occurs in the temperature range \SIrange{110}{99}{\degreeCelsius}. There is a clear change in the field-behaviour of the biaxiality at the Sm2$\rightarrow$Sm3 transition temperature. However, because these phases are tilted the authors original interpretation of the data needs to be revisited.  
-\todo{read the keith paper, to understand their dark state argument}
+
+The phase of interest, \smcpalpha, occurs in the temperature range \SIrange{110}{99}{\degreeCelsius}. There is a clear change in the field-behaviour of the biaxiality at the Sm2$\rightarrow$Sm3 transition temperature. However, because these phases are tilted the authors original interpretation of the data needs to be revisited.  
+
+For our purposes, we can use these textures to distinguish the \smcpalpha{} phase
+from the closely related \smcapa{} phase. The \smcapa{} phase should be weakly
+biaxial in homeotropic cells. The anticlinic structure should 'average' out any
+anisotropy in the dieletric tensor due to the tilt of the molecule, but because
+these are bent-core phases, there is a built in anisotropy of the dielectric
+tensor due to the rotation symmetry breaking of the bananna structure, which
+should manifest in homeotropic cells as a schlieren texture that allows for $\pm
+1/2$ defects.
+
+From \autoref{fig:pal30:homeo}, it is clear that, for the temperature ranges of
+\smcpalpha, the textures appear dark-- they have no measurable biaxiality. This
+means that the inherent anisotropy of the dielectric tensor of the molecule
+\textit{must} be organized in a structure that averages it out. This is a clue
+to the helical nature of the \smcpalpha{}. 
+
+
 
 %The original interpretation, that there exists a `dark' intermediate state on application of the electric field ($\approx \SI{2}{\volts\per\micron}$), where the polarization of each layer is perpendicular to each other.
         
-\subsection{Polar Switching of the \smcpalpha{} phase}
+\subsection{Electro-Optic Behaviour of the \smcpalpha{} phase}
+We can study the electro-optic behaviour of \nfour{} in both homeotropic and
+planar aligned cells. In homeotropic, you are studying the \textit{biaxiality}
+of the phase, ie. the birefringence $\delta n = n_2-n_3$. In planar aligned
+cells, you are studying the birefringence between the molecules long axis and
+some weighted combination of $n_2$ and $n_3$ that depends on the orientation.
+
+There are two categories of behaviour you can track to get information about the
+phase: the polarization current and the bifrefringence/biaxility.
+
+\subsubsection{Polarization Current}
+The \smcpalpha{} phase manifests a slight ferrielectric behaviour, where three
+peaks are visible under a high resolution polarization current trace. Broadly,
+the phase appears to have two main peaks, usually associated with
+antiferroelectric behaviour.
+
+However, the differences between these two phases becomes apparent under the
+application of an electric field. This is because the sequence of intermediate
+phases between a \smcapa{}$\rightarrow$\smcspf{} is different from
+\smcpalpha{}$\rightarrow$\smcspf{}. If the bent-core \smcpalpha{} phase behaves
+like its calamitic cousin, the \smcalpha{}, then under application of a field
+perpendicular to the helical axis, the helix of the \smcpalpha{} distorts. This
+helical distortion is likely causing the three peaks visible in
+\autoref{fig:pal30:sm2:prc2}
+
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\textwidth]{figs/pal30/prc/spacedSm2PRC.png}
+    \caption{\label{fig:pal30:sm2:prc1} Series of polarization current
+        measurements taken in the Sm2 phase of \nfour{}}
+    \end{figure}
+
+A more conventional series of traces for the polarization current is shown in
+\autoref{fig:pal30:sm2:prc1}, where the current is plotted as a function of
+time. The same data is shown in \autoref{fig:pal30:sm2:prc2}, where the
+current is plotted directly against the applied voltage.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{figs/pal30/prc/3dplot-sm2.png}
+    \caption{\label{fig:pal30:sm2:prc2} Polarization current of Sm2 of \nfour{}
+    plotted against applied voltage}
+\end{figure}
+A more conventional series of traces for the polarization current is shown in
+\autoref{fig:pal30:sm2:prc1}, where the current is plotted as a function of
+time. The same data is shown in \autoref{fig:pal30:sm2:prc2}, where the
+current is plotted directly against the applied voltage. The
+
+
 
 \subsection{Freely-Suspended Films of the \smcpalpha{} phase}
 \subsection{X-ray Analysis of the \smcpalpha{} phase}
+
+The two techniques used to characterize the \smcpalpha phase were SAXS (small
+angle hard x-ray scattering) and RSoXS (resonant soft x-ray scattering). As the
+SAXS is sensitive to periodicity in electron density, we can directly measure
+the smectic layer size ($d$), as shown in \autoref{fig:pal30:saxs}. 
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics{figs/pal30/xraysm1/sm2-saxs-annote.png}
+    \caption{\label{fig:pal30:saxs} SAXS of \smcpalpha{}. The smectic layer
+    size, $d$, increases monotonically on cooling, with no inflection points
+that would be characteristic of a untilted$\rightarrow$tilted phase transition.}
+\end{figure}
+
+The smectic layer size is measurably smaller than the length of an extended
+molecule, which supports the classification of \smcpalpha{} as a tilted phase.
+However, the increase seen on cooling, which stands in contrast to the
+majority of bent-core materials, may indicate a significant amount of
+intercalation at higher temperatures.  
+
+The x-ray analysis can be greatly supplemented with the addition of resonant
+scattering, which is sensitive to periodicity in orientation. A resonant diffractogram
+taken at \SI{104}{\degreeCelsius} is shown in \autoref{fig:pal30:diffract}.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.8\textwidth]{figs/pal30/rsoxssm2/RSoXS-coexistanenceDiffracto.png}
+    \caption{\label{fig:pal30:diffract} Diffractogram of \nfour{} taken in the
+        coexistance region between the \smcpalpha{} ($q\approx
+        \SI{0.04}{\per\angstrom}$) and the \smcapa{} ($q\approx
+    \SI{0.06}{\per\angstrom}$).}
+\end{figure}
+
+By azimuthally averaging diffractograms like the one in
+\autoref{fig:pal30:diffract} and plotting them as a function of temperature,
+\autoref{fig:pal30:diffractVt}, the
+behaviour of the \smcpalpha phase can be determined over its entire temperature
+range.
+
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.8\textwidth]{figs/pal30/rsoxssm2/sm2-rsoxs.png}
+    \caption{\label{fig:pal30:diffractVt} Temperature behaviour of the
+    \smcpalpha{} phase plotted as a waterfall plot in (a), and as a contour plot
+    in (b). A bilayer ($d=\SI{112}{\angstrom} =2d_0$) corresponds to the 2-layer
+unit-cell structure of the \smcapa{} phase, which sits directly below the
+\smcpalpha phase in temperature. The resonant peak corresponding to the
+\smcpalpha{} phase at $d\approx\SI{150}{\angstrom}$ is direct evidence that the
+\smcpalpha{} phase is not a classic B2-type phase.}
+\end{figure}
+
+The resonant peak corresponding to the \smcpalpha{} phase
+($d=\approx\SI{150}{\angstrom}$) shows that this phase cannot be a B2 phase (as
+those only have one or two layer unit-cells. However, the fact that this feature
+appears at roughly three times the smectic layer spacing is neccesary but not
+sufficient for a helix. An example of this type of structure would be the
+proposed devil-staircase model put forth to explain a similiar phase in
+\smcstar{} phase family of calimitics.
+
+Though a detailed examination of the unit-cell structure of the \smcpalpha{}
+will have to wait on the advent of polarization-resolved resonant x-ray on the
+carbon K-edge, we can actually confirm the helical nature of the \smcpalpha{}
+phase through careful analysis.
+
 \subsubsection{Umklapp Peaks}
+
+Though a detailed examination of the unit-cell structure of the \smcpalpha{}
+will have to wait on the advent of polarization-resolved resonant x-ray on the
+carbon K-edge, we can actually confirm the helical nature of the \smcpalpha{}
+phase through careful analysis. By combining the SAXS data and the RSoXS data,
+we can deduce two things. First, that the resonant feature of the \smcpalpha{}
+phase is incommensurate with the underlying smectic layer spacing. Specifically,
+it has a unit cell thickness of $\SI{148}{\angstrom}\approx 2.8 d_0$. Second,
+that we are missing an expected umklapp (harmonic) peak.
+
+Umklapp is a german word meaning flip-over, and it refers to higher harmonics
+that are wrapped back into the Brioullon zone. Following Levulet and
+Pansu~\cite{levelut1999tensorial}, where the smectic layers are modeled as
+stacked tensorial slabs, the master equation that predicts these flip-over
+harmonics is given by:
+\begin{equation} \label{eq:levelut}
+\frac{q}{q_0} = 2 \pi l + 2 \pi m\frac{1}{p},\qquad \forall \: l \in \mathbb{N},
+\quad \forall\: m
+\in \mathbb{Z}
+\end{equation}
+where $q$ is the location of the expected harmonic, $q_0$ is the scattering off
+the smectic layer spacing, $p$ is the pitch (in units of the smectic layer
+spacing) of the unit-cell, $l$ is a positive integer, and $m$ is a positive or
+negative integer.
+
+From \autoref{eq:levelut}, we can see one of the nearest harmonics should occur
+at $l=1,m=-1$. For the \smcpalpha{} phase, with a pitch of $p =1/2.8$, we would
+expect to see a harmonic at \todo{include this number}. To highlight this
+analysis, we plot the azimuthally-averaged diffractogram in the co-existence
+region between the \smcpalpha{} and the \smcapa{}, on a $q$-scale
+normalized by the scattering from the smectic layer spacing, $q_0$, in
+\autoref{fig:pal30-xray-combined}.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.4\textwidth]{figs/pal30/rsoxssm2/xray-combined.png}
+    \caption{\label{fig:pal30-xray-combined}X-ray scattering from \nfour{phi}.
+            (a) SAXS gives a peak from the smectic layer ordering at $q=q_0$.
+                The RSoXS peak at $q_H$ indicates that there is superlayer
+            orientational ordering with periodicity $d_H$
+                in the Sm2 phase.
+                    In general, superlayer orientational modulation in a smectic
+                generates RSoXS peaks at wavevectors along the layer normal at
+                    $q(l,m) = l(2\pi/d_0) \pm
+                m(2\pi/d_H)$\cite{levelut1999tensorial}.  The
+                    observation of an RSoXS reflection at $q = q(0,1)$ and the
+                absence of an Umklapp peak at $q = q(1,-1)$  in
+                    the Sm2 confirms a superlayer helix with a scattering
+                amplitude
+                    modulation due to the smectic layering that is undetectably
+                weak.
+                    (b) Temperature dependence of resonant scattering. The helix
+                peak at $q_H \approx1/(2.8 d_0)$ becomes diffuse in the Sm3
+            phase. Splitting
+                of the bilayer peak at $q_B$, which would indicate helical
+            precession of the bilayer structure, is not observed.}
+\end{figure}
+
+
 \section{Discussion of the \smcpalpha{} phase}
-
-
-
 
 %\bibliography{pal30}
 \biblio
