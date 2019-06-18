@@ -1,0 +1,6 @@
+Fitting Parameters for FlowMeter
+slope: 307.73873933306203
+intercept: -38.1807286953553
+r_value: 0.969969241562056
+p_value: 2.379656629046776e-53
+std_err: 8.419715897868997

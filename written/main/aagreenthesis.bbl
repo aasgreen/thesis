@@ -1,4 +1,46 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{Adamczyk2Dimensionalparticletracking1988}
+A.~A. Adamczyk and L.~Rimai.
+\newblock 2-{{Dimensional}} particle tracking velocimetry ({{PTV}}):
+  {{Technique}} and image processing algorithms.
+\newblock 6(6):373--380.
+
+\bibitem{AdrianParticleImageVelocimetry2011}
+Ronald~J. Adrian and Jerry Westerweel.
+\newblock {\em Particle {{Image Velocimetry}}}.
+\newblock {Cambridge University Press}.
+
+\bibitem{AllantrackpyTrackpyv02018}
+Daniel~B. Allan, Thomas Caswell, Nathan~C. Keim, and Casper~M. van~der Wel.
+\newblock Trackpy: {{Trackpy}} v0.4.1.
+
+\bibitem{DracosParticleTrackingVelocimetry1996}
+Th. Dracos.
+\newblock Particle {{Tracking Velocimetry}} ({{PTV}}).
+\newblock In Th. Dracos, editor, {\em Three-{{Dimensional Velocity}} and
+  {{Vorticity Measuring}} and {{Image Analysis Techniques}}: {{Lecture Notes}}
+  from the {{Short Course}} Held in {{Z\"urich}}, {{Switzerland}},
+  3\textendash{}6 {{September}} 1996}, {{ERCOFTAC Series}}, pages 155--160.
+  {Springer Netherlands}.
+
+\bibitem{GovierFlowComplexMixtures2008}
+George~Wheeler Govier and Khalid Aziz.
+\newblock {\em The {{Flow}} of {{Complex Mixtures}} in {{Pipes}}}.
+\newblock {Society of Petroleum Engineers}, 2 edition.
+
+\bibitem{HuhUseAirLiquidTwoPhase2002}
+Dongeun Huh, Yi-Chung Tung, Hsien-Hung Wei, James~B. Grotberg, Steven~J.
+  Skerlos, Katsuo Kurabayashi, and Shuichi Takayama.
+\newblock Use of {{Air}}-{{Liquid Two}}-{{Phase Flow}} in {{Hydrophobic
+  Microfluidic Channels}} for {{Disposable Flow Cytometers}}.
+\newblock 4(2):141--149.
+
+\bibitem{KuriabovaHydrodynamicinteractionsfreely2016}
+Tatiana Kuriabova, Thomas~R. Powers, Zhiyuan Qi, Aaron Goldfain, Cheol~Soo
+  Park, Matthew~A. Glaser, Joseph~E. Maclennan, and Noel~A. Clark.
+\newblock Hydrodynamic interactions in freely suspended liquid crystal films.
+\newblock 94(5):052701.
 
 \bibitem{levelut1999tensorial}
 Anne-Marie Levelut and Brigitte Pansu.
@@ -19,11 +61,59 @@ Y.~P. Panarin, M.~Nagaraj, S.~Sreenilayam, J.~K. Vij, A.~Lehmann, and
   liquid crystal: Evidence for the smap$_\alpha$ phase.
 \newblock {\em Phys. Rev. Lett.}, 107(24):247801, December 2011.
 
+\bibitem{Parmarnovelboundarylayer1991}
+D.~S. Parmar.
+\newblock A novel boundary layer sensor utilizing domain switching in
+  ferroelectric liquid crystals.
+\newblock 62(2):474--479.
+
+\bibitem{ParmarPressuresensorusing1994}
+Devendra~S. Parmar and Harlan~K. Holmes.
+\newblock Pressure sensor using liquid crystals.
+
+\bibitem{PindakTwodimensionalsystems1982}
+Ronald Pindak and David Moncton.
+\newblock Two-dimensional systems.
+\newblock 35(5):57.
+
+\bibitem{QiActivemicrorheologysmectic2017}
+Zhiyuan Qi, Kyle Ferguson, Yancey Sechrest, Tobin Munsat, Cheol~Soo Park,
+  Matthew~A. Glaser, Joseph~E. Maclennan, Noel~A. Clark, Tatiana Kuriabova, and
+  Thomas~R. Powers.
+\newblock Active microrheology of smectic membranes.
+\newblock 95(2):022702.
+
+\bibitem{QiMutualDiffusionInclusions2014}
+Zhiyuan Qi, Zoom~Hoang Nguyen, Cheol~Soo Park, Matthew~A. Glaser, Joseph~E.
+  Maclennan, Noel~A. Clark, Tatiana Kuriabova, and Thomas~R. Powers.
+\newblock Mutual {{Diffusion}} of {{Inclusions}} in {{Freely Suspended Smectic
+  Liquid Crystal Films}}.
+\newblock 113(12):128304.
+
+\bibitem{RaffelParticleImageVelocimetry2018}
+Markus Raffel, Christian~E. Willert, Fulvio Scarano, Christian~J. K\"ahler,
+  Steve~T. Wereley, and J\"urgen Kompenhans.
+\newblock {\em Particle {{Image Velocimetry}}: {{A Practical Guide}}}.
+\newblock {Springer}.
+
 \bibitem{ReddyInfluencefluorinesubstituent2003}
 R.~Amaranatha Reddy and B.~K. Sadashivaa.
 \newblock Influence of fluorine substituent on the mesomorphic properties of
   five-ring ester banana-shaped molecules.
 \newblock 30(9):1031--1050.
+
+\bibitem{RosenblattOpticaldeterminationsmectic1980}
+Charles Rosenblatt and Nabil~M. Amer.
+\newblock Optical determination of smectic {{A}} layer spacing in freely
+  suspended thin films.
+\newblock 36(6):432--434.
+
+\bibitem{RosenblattFreelySuspendedFerroelectric1979}
+Charles Rosenblatt, Ronald Pindak, Noel~A. Clark, and Robert~B. Meyer.
+\newblock Freely {{Suspended Ferroelectric Liquid}}-{{Crystal Films}}:
+  {{Absolute Measurements}} of {{Polarization}}, {{Elastic Constants}}, and
+  {{Viscosities}}.
+\newblock 42(18):1220--1223.
 
 \bibitem{sreenilayam_properties_2012}
 S.~Sreenilayam, M.~Nagaraj, Y.~P. Panarin, J.~K. Vij, A.~Lehmann, and
@@ -44,5 +134,24 @@ Sithara~P. Sreenilayam, Yuri~P. Panarin, Jagdish~K. Vij, Vitaly~P. Panov, Anne
 \newblock Spontaneous helix formation in non-chiral bent-core liq. cryst. with
   fast linear electro-optic effect.
 \newblock {\em Nat. Commun.}, 7:11369, May 2016.
+
+\bibitem{Wellertensorialapproachcomputational1998}
+H.~G. Weller, G.~Tabor, H.~Jasak, and C.~Fureby.
+\newblock A tensorial approach to computational continuum mechanics using
+  object-oriented techniques.
+\newblock 12(6):620--631.
+
+\bibitem{YablonskiiPressuresensorbased2002}
+S.~V. Yablonskii, K.~Nakano, A.~S. Mikhailov, M.~Ozaki, and K.~Yoshino.
+\newblock Pressure sensor based on freely suspended ferroelectric liquid
+  crystal film.
+\newblock 80(4):571--573.
+
+\bibitem{YoungLightScatteringStudyTwoDimensional1978}
+Charles~Y. Young, Ronald Pindak, Noel~A. Clark, and Robert~B. Meyer.
+\newblock Light-{{Scattering Study}} of {{Two}}-{{Dimensional
+  Molecular}}-{{Orientation Fluctuations}} in a {{Freely Suspended
+  Ferroelectric Liquid}}-{{Crystal Film}}.
+\newblock 40(12):773--776.
 
 \end{thebibliography}
