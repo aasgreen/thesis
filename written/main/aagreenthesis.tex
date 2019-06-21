@@ -13,7 +13,7 @@
 %\usepackage{subfiles}
 %\usepackage[T1]{fontenc}
 %%\usepackage[utf8]{inputenc}
-\def\biblio{\bibliographystyle{plain}\bibliography{pal30}}  %
+%\def\biblio{\bibliographystyle{plain}\bibliography{pal30}}  %
 
 %%%%%%%%%%%%   All the preamble material:   %%%%%%%%%%%%
 
@@ -66,16 +66,17 @@ Liquid-Crystalline Materials}
 
 \begin{document}
 
-\def\biblio{}
+%\def\biblio{}
 \subfile{chap1.tex}
 \subfile{chap2-pal.tex}
-\subfile{chap3-pal.tex}
+\subfile{chap3-homolog.tex}
+%\subfile{chap3-pal.tex}
 \subfile{chap4-racetrack.tex}
 
 %%%%%%%%%   then the Bibliography, if any   %%%%%%%%%
 \bibliographystyle{plain}	% or "siam", or "alpha", etc.
 %\nocite{*}		% list all refs in database, cited or not
-\bibliography{pal30,refs}		% Bib database in "refs.bib"
+\bibliography{pal30,refs,PAL30v2}		% Bib database in "refs.bib"
 
 %%%%%%%%%   then the Appendices, if any   %%%%%%%%%
 \appendix

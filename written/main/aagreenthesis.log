@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.9)  14 JUN 2019 17:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.9)  21 JUN 2019 11:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -20,8 +20,8 @@ Document Class: thesis 2014/03/27
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -1849,6 +1849,12 @@ Putting page number on short LoF
 Putting page number on short LoT
 (./aagreenthesis.aux
 
+LaTeX Warning: Label `fig:pal30:planar-textures' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
 LaTeX Warning: Label `' multiply defined.
 
 
@@ -1863,20 +1869,20 @@ LaTeX Warning: Label `' multiply defined.
 )
 \openout1 = `aagreenthesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count188
@@ -1907,7 +1913,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box67
-Package hyperref Info: Link coloring ON on input line 73.
+Package hyperref Info: Link coloring ON on input line 67.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1917,9 +1923,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count194
 )
-LaTeX Info: Redefining \ref on input line 73.
-LaTeX Info: Redefining \pageref on input line 73.
-LaTeX Info: Redefining \nameref on input line 73.
+LaTeX Info: Redefining \ref on input line 67.
+LaTeX Info: Redefining \pageref on input line 67.
+LaTeX Info: Redefining \nameref on input line 67.
 
 (./aagreenthesis.out) (./aagreenthesis.out)
 \@outlinefile=\write4
@@ -1933,7 +1939,7 @@ Dictionary: translator-basic-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 )
-LaTeX Info: Redefining \microtypecontext on input line 73.
+LaTeX Info: Redefining \microtypecontext on input line 67.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1958,21 +1964,6 @@ Making Abstract Page
 [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 73.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 73.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
 Making Dedication Page
 [3
 
@@ -1992,7 +1983,21 @@ Making Short ToC...
 ]
 centered
 Short Chapter (page numbered)
-(./aagreenthesis.toc [6
+(./aagreenthesis.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [6
 
 ])
 \tf@toc=\write5
@@ -2016,9 +2021,222 @@ Making Short LoF...
 ]
 centered
 Short Chapter (page numbered)
-(./aagreenthesis.lof [9
+(./aagreenthesis.lof
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 4.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
 
-] [10] [11])
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquotestraightbase '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquotestraightdblbase '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\texttwelveudash '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textthreequartersemdash '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquotesingle '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textasteriskcentered '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textoneoldstyle '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textthreeoldstyle '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textfouroldstyle '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textsevenoldstyle '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textlangle '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textrangle '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textminus '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\texttildelow '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textdagger '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textdaggerdbl '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textbullet '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textcelsius '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textcolonmonetary '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\texttrademark '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textcopyright '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textordfeminine '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textlnot '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textregistered '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textdegree '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textpm '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\texttwosuperior '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textthreesuperior '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textperiodcentered '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textonesuperior '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textordmasculine '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\texteuro '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\texttimes '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textdiv '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `cmr-textcomp'.
+
+[9
+
+]
+Overfull \vbox (7.07149pt too high) has occurred while \output is active []
+
+
+[10] [11] [12] [13])
 \tf@lof=\write7
 \openout7 = `aagreenthesis.lof'.
 
@@ -2028,7 +2246,7 @@ Short Chapter (page numbered)
 -------------------Beginning Body----------------------
 
 
-[12]
+[14] [15]
 \c__siunitx_mathsf_int=\count195
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
@@ -2056,317 +2274,401 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\alpha' on input line 5.
 
 centered
-<figs/pal30/prc/spacedSmRPRC.png, id=342, 356.2911pt x 283.65974pt>
-File: figs/pal30/prc/spacedSmRPRC.png Graphic file (type png)
-
-<use figs/pal30/prc/spacedSmRPRC.png>
-Package pdftex.def Info: figs/pal30/prc/spacedSmRPRC.png used on input line 33.
-
-(pdftex.def)             Requested size: 375.80542pt x 299.20193pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/pal30/prc/3dplot-sm34.png, id=345, 708.90848pt x 284.0211pt>
-File: figs/pal30/prc/3dplot-sm34.png Graphic file (type png)
-
-<use figs/pal30/prc/3dplot-sm34.png>
-Package pdftex.def Info: figs/pal30/prc/3dplot-sm34.png used on input line 42.
-(pdftex.def)             Requested size: 469.75499pt x 188.20424pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 49.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 49.
-
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 54.
+ine 6.
+
+Overfull \hbox (8.75774pt too wide) in paragraph at lines 7--7
+\T1/cmr/m/n/12 (-20) biref/tilt 
+ []
+
+
+Overfull \hbox (46.83023pt too wide) in paragraph at lines 7--7
+\T1/cmr/m/n/12 (-20) textures/electro- 
+ []
+
+
+Overfull \hbox (8.75774pt too wide) in paragraph at lines 7--7
+\T1/cmr/m/n/12 (-20) biref/tilt 
+ []
+
+
+Overfull \hbox (46.83023pt too wide) in paragraph at lines 7--7
+\T1/cmr/m/n/12 (-20) textures/electro- 
+ []
+
+
+Overfull \hbox (8.75774pt too wide) in paragraph at lines 7--7
+\T1/cmr/m/n/12 (-20) biref/tilt 
+ []
+
+
+Overfull \hbox (46.83023pt too wide) in paragraph at lines 7--7
+\T1/cmr/m/n/12 (-20) textures/electro- 
+ []
+
+
+Overfull \hbox (8.75774pt too wide) in paragraph at lines 7--7
+\T1/cmr/m/n/12 (-20) biref/tilt 
+ []
+
+
+Overfull \hbox (46.83023pt too wide) in paragraph at lines 7--7
+\T1/cmr/m/n/12 (-20) textures/electro- 
+ []
+
+
+LaTeX Warning: Marginpar on page 2 moved.
+
 [2
 
-] [3pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-1}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.56 \subsection
-                {Textures of the \smcpalpha{} phase}pdfTeX warning (ext4): dest
-ination with the same identifier (name{figure.2.2}) has been already used, dupl
-icate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.56 \subsection
-                {Textures of the \smcpalpha{} phase} <./figs/pal30/prc/spacedSm
-RPRC.png> <./figs/pal30/prc/3dplot-sm34.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 56.
+] [3] [4]
+<figs/pal30/fromPaper/finalFigs/Figure1v3.png, id=472, 499.8675pt x 395.7987pt>
+File: figs/pal30/fromPaper/finalFigs/Figure1v3.png Graphic file (type png)
+<use figs/pal30/fromPaper/finalFigs/Figure1v3.png>
+Package pdftex.def Info: figs/pal30/fromPaper/finalFigs/Figure1v3.png used on i
+nput line 103.
+(pdftex.def)             Requested size: 422.77661pt x 334.76964pt.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 56.
+LaTeX Warning: Float too large for page by 18.44496pt on input line 137.
 
 
-LaTeX Warning: Reference `sec:intro:pl-aligned' on page 4 undefined on input li
-ne 58.
-
-
-LaTeX Warning: Reference `sec:intro:pal30-phases' on page 4 undefined on input 
-line 67.
-
-<figs/pal30/textureSM2/sm2Textures100.png, id=361, 1130.3028pt x 249.3315pt>
-File: figs/pal30/textureSM2/sm2Textures100.png Graphic file (type png)
-
-<use figs/pal30/textureSM2/sm2Textures100.png>
-Package pdftex.def Info: figs/pal30/textureSM2/sm2Textures100.png used on input
- line 75.
-(pdftex.def)             Requested size: 469.75499pt x 103.6228pt.
- [4pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
-}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.84 
-      <./figs/pal30/textureSM2/sm2Textures100.png>]
-
-LaTeX Warning: Reference `sec:pal30:discussion' on page 5 undefined on input li
-ne 131.
-
-[5] <figs/pal30/prc/PRCvsTilt/T108.png, id=381, 243.91125pt x 280.52805pt>
-File: figs/pal30/prc/PRCvsTilt/T108.png Graphic file (type png)
-
-<use figs/pal30/prc/PRCvsTilt/T108.png>
-Package pdftex.def Info: figs/pal30/prc/PRCvsTilt/T108.png used on input line 1
-35.
-(pdftex.def)             Requested size: 375.80542pt x 432.22853pt.
-
-<figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png, id=388, 551.4201
-pt x 327.3831pt>
-File: figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png Graphic file
- (type png)
-
-<use figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png>
-Package pdftex.def Info: figs/pal30/fromPapers/textures/pal30-Homeo-2012-labell
-ed.png used on input line 157.
-(pdftex.def)             Requested size: 375.80542pt x 223.1221pt.
- [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4
-}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.160 
-       <./figs/pal30/prc/PRCvsTilt/T108.png>] [7pdfTeX warning (ext4): destinat
-ion with the same identifier (name{figure.2.5}) has been already used, duplicat
-e ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.172 
-       <./figs/pal30/fromPapers/textures/pal30-Homeo-2012-labelled.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 183.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 183.
-
-<figs/pal30/prc/spacedSm2PRC.png, id=408, 356.2911pt x 283.2984pt>
-File: figs/pal30/prc/spacedSm2PRC.png Graphic file (type png)
-
-<use figs/pal30/prc/spacedSm2PRC.png>
-Package pdftex.def Info: figs/pal30/prc/spacedSm2PRC.png used on input line 211
-.
-(pdftex.def)             Requested size: 281.85585pt x 224.11452pt.
+<figs/pal30/fromPaper/figsForThesis/dsc/dsc-slowrun.pdf, id=478, 418.56375pt x 
+255.95625pt>
+File: figs/pal30/fromPaper/figsForThesis/dsc/dsc-slowrun.pdf Graphic file (type
+ pdf)
+ <use figs/pal30/fromPaper/figsForThesis/dsc/dsc-slowrun.pdf>
+Package pdftex.def Info: figs/pal30/fromPaper/figsForThesis/dsc/dsc-slowrun.pdf
+ used on input line 143.
+(pdftex.def)             Requested size: 469.75499pt x 287.25877pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/pal30/prc/3dplot-sm2.png, id=411, 708.90848pt x 284.0211pt>
-File: figs/pal30/prc/3dplot-sm2.png Graphic file (type png)
 
-<use figs/pal30/prc/3dplot-sm2.png>
-Package pdftex.def Info: figs/pal30/prc/3dplot-sm2.png used on input line 223.
-(pdftex.def)             Requested size: 469.75499pt x 188.20424pt.
- [8]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 234.
+LaTeX Warning: Reference `fig:pal30:prcbig' on page 5 undefined on input line 1
+67.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 234.
+LaTeX Warning: Citation `edThesis' on page 5 undefined on input line 179.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 235.
+LaTeX Warning: Citation `edThesis' on page 5 undefined on input line 185.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 235.
-
-[9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}
-) has been already used, duplicate ignored
+[5] [6pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.1}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.241 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-2.7}) has been already used, duplicate ignored
+l.186 
+       <./figs/pal30/fromPaper/finalFigs/Figure1v3.png>] [7pdfTeX warning (ext4
+): destination with the same identifier (name{figure.2.2}) has been already use
+d, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.241 
-       <./figs/pal30/prc/spacedSm2PRC.png> <./figs/pal30/prc/3dplot-sm2.png>]
-<figs/pal30/xraysm1/sm2-saxs-annote.png, id=426, 272.09656pt x 178.14555pt>
-File: figs/pal30/xraysm1/sm2-saxs-annote.png Graphic file (type png)
+l.197 
+       <./figs/pal30/fromPaper/figsForThesis/dsc/dsc-slowrun.pdf>]
+<figs/pal30/xraysm1/sm1-xray-annote.png, id=510, 492.52005pt x 210.3057pt>
+File: figs/pal30/xraysm1/sm1-xray-annote.png Graphic file (type png)
 
-<use figs/pal30/xraysm1/sm2-saxs-annote.png>
-Package pdftex.def Info: figs/pal30/xraysm1/sm2-saxs-annote.png used on input l
-ine 244.
-(pdftex.def)             Requested size: 272.09589pt x 178.14511pt.
+<use figs/pal30/xraysm1/sm1-xray-annote.png>
+Package pdftex.def Info: figs/pal30/xraysm1/sm1-xray-annote.png used on input l
+ine 201.
+(pdftex.def)             Requested size: 469.75499pt x 200.59152pt.
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
+}) has been already used, duplicate ignored
 
-<figs/pal30/rsoxssm2/RSoXS-coexistanenceDiffracto.png, id=428, 433.62pt x 433.6
-2pt>
-File: figs/pal30/rsoxssm2/RSoXS-coexistanenceDiffracto.png Graphic file (type p
-ng)
- <use figs/pal30/rsoxssm2/RSoXS-coexistanenceDiffracto.png>
-Package pdftex.def Info: figs/pal30/rsoxssm2/RSoXS-coexistanenceDiffracto.png u
-sed on input line 262.
-(pdftex.def)             Requested size: 375.80542pt x 375.8238pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/pal30/rsoxssm2/sm2-rsoxs.png, id=431, 349.7868pt x 398.08725pt>
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.234 
+       <./figs/pal30/xraysm1/sm1-xray-annote.png>]
+<figs/pal30/rsoxssm2/sm2-rsoxs.png, id=519, 349.7868pt x 398.08725pt>
 File: figs/pal30/rsoxssm2/sm2-rsoxs.png Graphic file (type png)
 
 <use figs/pal30/rsoxssm2/sm2-rsoxs.png>
 Package pdftex.def Info: figs/pal30/rsoxssm2/sm2-rsoxs.png used on input line 2
-78.
+37.
 (pdftex.def)             Requested size: 375.80542pt x 427.69855pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[10pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4
 }) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.295 
-       <./figs/pal30/xraysm1/sm2-saxs-annote.png>] [11pdfTeX warning (ext4): de
-stination with the same identifier (name{figure.2.9}) has been already used, du
-plicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.311 
-       <./figs/pal30/rsoxssm2/RSoXS-coexistanenceDiffracto.png>] [12pdfTeX warn
-ing (ext4): destination with the same identifier (name{figure.2.10}) has been a
-lready used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.311 
+l.253 
        <./figs/pal30/rsoxssm2/sm2-rsoxs.png>]
-<figs/pal30/rsoxssm2/xray-combined.png, id=452, 226.32555pt x 250.0542pt>
-File: figs/pal30/rsoxssm2/xray-combined.png Graphic file (type png)
+<figs/pal30/fromPaper/finalFigs/xray-combined.png, id=525, 226.32555pt x 250.05
+42pt>
+File: figs/pal30/fromPaper/finalFigs/xray-combined.png Graphic file (type png)
+ <use figs/pal30/fromPaper/finalFigs/xray-combined.png>
+Package pdftex.def Info: figs/pal30/fromPaper/finalFigs/xray-combined.png used 
+on input line 256.
+(pdftex.def)             Requested size: 281.85585pt x 311.4223pt.
 
-<use figs/pal30/rsoxssm2/xray-combined.png>
-Package pdftex.def Info: figs/pal30/rsoxssm2/xray-combined.png used on input li
-ne 337.
-(pdftex.def)             Requested size: 187.89912pt x 207.60979pt.
+<figs/pal30/textureSM1/sm1Textures100.png, id=536, 1130.3028pt x 249.3315pt>
+File: figs/pal30/textureSM1/sm1Textures100.png Graphic file (type png)
+
+<use figs/pal30/textureSM1/sm1Textures100.png>
+Package pdftex.def Info: figs/pal30/textureSM1/sm1Textures100.png used on input
+ line 307.
+(pdftex.def)             Requested size: 469.75499pt x 103.6228pt.
+ [10] [11pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.2.5}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.312 
+       <./figs/pal30/fromPaper/finalFigs/xray-combined.png>]
+<figs/pal30/fromPaper/finalFigs/threshold-inset2.png, id=556, 220.1826pt x 154.
+05556pt>
+File: figs/pal30/fromPaper/finalFigs/threshold-inset2.png Graphic file (type pn
+g)
+ <use figs/pal30/fromPaper/finalFigs/threshold-inset2.png>
+Package pdftex.def Info: figs/pal30/fromPaper/finalFigs/threshold-inset2.png us
+ed on input line 338.
+(pdftex.def)             Requested size: 281.85585pt x 197.22804pt.
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+6}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.351 
+       <./figs/pal30/textureSM1/sm1Textures100.png>]
+<figs/pal30/fromPaper/finalFigs/theory-biref.png, id=569, 501.072pt x 450.2421p
+t>
+File: figs/pal30/fromPaper/finalFigs/theory-biref.png Graphic file (type png)
+ <use figs/pal30/fromPaper/finalFigs/theory-biref.png>
+Package pdftex.def Info: figs/pal30/fromPaper/finalFigs/theory-biref.png used o
+n input line 373.
+(pdftex.def)             Requested size: 375.80542pt x 337.68759pt.
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+7}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.378 
+       <./figs/pal30/fromPaper/finalFigs/threshold-inset2.png>]
+<figs/pal30/textureSM2/sm2Textures100.png, id=578, 1128.8574pt x 247.1634pt>
+File: figs/pal30/textureSM2/sm2Textures100.png Graphic file (type png)
+
+<use figs/pal30/textureSM2/sm2Textures100.png>
+Package pdftex.def Info: figs/pal30/textureSM2/sm2Textures100.png used on input
+ line 391.
+(pdftex.def)             Requested size: 469.75499pt x 102.85374pt.
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+8}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.395 \end{figure}
+                   <./figs/pal30/fromPaper/finalFigs/theory-biref.png>]
+<figs/pal30/texturesm4/sm4Textures100.png, id=585, 1128.8574pt x 247.1634pt>
+File: figs/pal30/texturesm4/sm4Textures100.png Graphic file (type png)
+
+<use figs/pal30/texturesm4/sm4Textures100.png>
+Package pdftex.def Info: figs/pal30/texturesm4/sm4Textures100.png used on input
+ line 407.
+(pdftex.def)             Requested size: 469.75499pt x 102.85374pt.
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+9}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.426 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.10}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.426 
+       <./figs/pal30/textureSM2/sm2Textures100.png> <./figs/pal30/texturesm4/sm
+4Textures100.png>]
+<figs/pal30/fromPaper/finalFigs/polzv9.png, id=595, 735.82906pt x 480.8364pt>
+File: figs/pal30/fromPaper/finalFigs/polzv9.png Graphic file (type png)
+
+<use figs/pal30/fromPaper/finalFigs/polzv9.png>
+Package pdftex.def Info: figs/pal30/fromPaper/finalFigs/polzv9.png used on inpu
+t line 429.
+(pdftex.def)             Requested size: 469.75499pt x 306.97119pt.
+
+<figs/pal30/prc/3dplot-sm1.png, id=596, 708.90848pt x 284.0211pt>
+File: figs/pal30/prc/3dplot-sm1.png Graphic file (type png)
+
+<use figs/pal30/prc/3dplot-sm1.png>
+Package pdftex.def Info: figs/pal30/prc/3dplot-sm1.png used on input line 443.
+(pdftex.def)             Requested size: 469.75499pt x 188.20424pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 361.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 361.
-
-) (./chap3-pal.tex [13] [14pdfTeX warning (ext4): destination with the same ide
-ntifier (name{figure.2.11}) has been already used, duplicate ignored
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+1}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.5 bent-core mesogens}
-                        <./figs/pal30/rsoxssm2/xray-combined.png>]
+l.455 
+       <./figs/pal30/fromPaper/finalFigs/polzv9.png (PNG copy)>]
+<figs/pal30/prc/PRCvsTilt/PRCVtilt.png, id=604, 481.3182pt x 294.50024pt>
+File: figs/pal30/prc/PRCvsTilt/PRCVtilt.png Graphic file (type png)
+
+<use figs/pal30/prc/PRCvsTilt/PRCVtilt.png>
+Package pdftex.def Info: figs/pal30/prc/PRCvsTilt/PRCVtilt.png used on input li
+ne 458.
+(pdftex.def)             Requested size: 281.85585pt x 172.45494pt.
+ [17pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+12}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.478 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.13}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.478 
+       <./figs/pal30/prc/3dplot-sm1.png> <./figs/pal30/prc/PRCvsTilt/PRCVtilt.p
+ng>] <figs/pal30/prc/3dplot-sm2.png, id=614, 708.90848pt x 284.0211pt>
+File: figs/pal30/prc/3dplot-sm2.png Graphic file (type png)
+
+<use figs/pal30/prc/3dplot-sm2.png>
+Package pdftex.def Info: figs/pal30/prc/3dplot-sm2.png used on input line 482.
+(pdftex.def)             Requested size: 469.75499pt x 188.20424pt.
+
+<figs/pal30/prc/3dplot-sm34.png, id=616, 708.90848pt x 284.0211pt>
+File: figs/pal30/prc/3dplot-sm34.png Graphic file (type png)
+
+<use figs/pal30/prc/3dplot-sm34.png>
+Package pdftex.def Info: figs/pal30/prc/3dplot-sm34.png used on input line 503.
+
+(pdftex.def)             Requested size: 469.75499pt x 188.20424pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+4}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.516 $$
+         <./figs/pal30/prc/3dplot-sm2.png>]
+<figs/pal30/fromPaper/finalFigs/dvAlign.png, id=623, 496.13354pt x 218.61674pt>
+File: figs/pal30/fromPaper/finalFigs/dvAlign.png Graphic file (type png)
+<use figs/pal30/fromPaper/finalFigs/dvAlign.png>
+Package pdftex.def Info: figs/pal30/fromPaper/finalFigs/dvAlign.png used on inp
+ut line 532.
+(pdftex.def)             Requested size: 469.75499pt x 206.9942pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+5}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.549 
+       <./figs/pal30/prc/3dplot-sm34.png>]) (./chap3-homolog.tex [20pdfTeX warn
+ing (ext4): destination with the same identifier (name{figure.2.16}) has been a
+lready used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.4 of Molecules related to \nfour{}}
+                                      <./figs/pal30/fromPaper/finalFigs/dvAlign
+.png>]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 3.
 centered
-<figs/pal30/textureSM2/sm1Textures100.png, id=468, 1130.3028pt x 249.3315pt>
+
+LaTeX Warning: Citation `SreenilayamSpontaneoushelixformation2016' on page 21 u
+ndefined on input line 10.
+
+
+LaTeX Warning: Citation `SreenilayamDevelopmentferroelectricitysmectic2017' on 
+page 21 undefined on input line 10.
+
+
+LaTeX Warning: Citation `vij' on page 21 undefined on input line 10.
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 12.
+
+<figs/pal30/textureSM2/sm1Textures100.png, id=639, 1130.3028pt x 249.3315pt>
 File: figs/pal30/textureSM2/sm1Textures100.png Graphic file (type png)
 
 <use figs/pal30/textureSM2/sm1Textures100.png>
 Package pdftex.def Info: figs/pal30/textureSM2/sm1Textures100.png used on input
- line 12.
+ line 16.
 (pdftex.def)             Requested size: 375.80542pt x 82.89597pt.
 
-<figs/pal30/prc/spacedSm1PRC.png, id=469, 356.2911pt x 283.65974pt>
+<figs/pal30/prc/spacedSm1PRC.png, id=640, 356.2911pt x 283.65974pt>
 File: figs/pal30/prc/spacedSm1PRC.png Graphic file (type png)
 
 <use figs/pal30/prc/spacedSm1PRC.png>
-Package pdftex.def Info: figs/pal30/prc/spacedSm1PRC.png used on input line 21.
+Package pdftex.def Info: figs/pal30/prc/spacedSm1PRC.png used on input line 25.
 
 (pdftex.def)             Requested size: 375.80542pt x 299.20193pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/pal30/prc/3dplot-sm1.png, id=470, 708.90848pt x 284.0211pt>
 File: figs/pal30/prc/3dplot-sm1.png Graphic file (type png)
-
 <use figs/pal30/prc/3dplot-sm1.png>
-Package pdftex.def Info: figs/pal30/prc/3dplot-sm1.png used on input line 28.
+Package pdftex.def Info: figs/pal30/prc/3dplot-sm1.png used on input line 32.
 (pdftex.def)             Requested size: 375.80542pt x 150.56079pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<figs/pal30/xraysm1/rsosxSmaT113-modified.png, id=471, 338.62788pt x 338.4759pt
+<figs/pal30/xraysm1/rsosxSmaT113-modified.png, id=641, 338.62788pt x 338.4759pt
 >
 File: figs/pal30/xraysm1/rsosxSmaT113-modified.png Graphic file (type png)
  <use figs/pal30/xraysm1/rsosxSmaT113-modified.png>
 Package pdftex.def Info: figs/pal30/xraysm1/rsosxSmaT113-modified.png used on i
-nput line 37.
+nput line 41.
 (pdftex.def)             Requested size: 375.80542pt x 375.63522pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/pal30/xraysm1/sm1-saxs-annote.png, id=472, 279.32355pt x 178.14555pt>
-File: figs/pal30/xraysm1/sm1-saxs-annote.png Graphic file (type png)
-
-<use figs/pal30/xraysm1/sm1-saxs-annote.png>
-Package pdftex.def Info: figs/pal30/xraysm1/sm1-saxs-annote.png used on input l
-ine 44.
-(pdftex.def)             Requested size: 279.32285pt x 178.14511pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./chap4-racetrack.tex [15
+ [21
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
 has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.4 ...r{Metrology Applications of Fluid Crystals}
-                                                   <./figs/pal30/textureSM2/sm1
-Textures100.png>] [16pdfTeX warning (ext4): destination with the same identifie
-r (name{figure.3.2}) has been already used, duplicate ignored
+l.43 \end{figure}
+                  <./figs/pal30/textureSM2/sm1Textures100.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/pal30/xraysm1/sm1-saxs-annote.png, id=648, 279.32355pt x 178.14555pt>
+File: figs/pal30/xraysm1/sm1-saxs-annote.png Graphic file (type png)
+
+<use figs/pal30/xraysm1/sm1-saxs-annote.png>
+Package pdftex.def Info: figs/pal30/xraysm1/sm1-saxs-annote.png used on input l
+ine 48.
+(pdftex.def)             Requested size: 279.32285pt x 178.14511pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/pal30/deVries/dvAlign.png, id=649, 496.13354pt x 218.61674pt>
+File: figs/pal30/deVries/dvAlign.png Graphic file (type png)
+
+<use figs/pal30/deVries/dvAlign.png>
+Package pdftex.def Info: figs/pal30/deVries/dvAlign.png used on input line 58.
+(pdftex.def)             Requested size: 496.13232pt x 218.6162pt.
+
+Overfull \hbox (26.37733pt too wide) in paragraph at lines 58--59
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./chap4-racetrack.tex [22pdfTeX warning (ext4): destination with the same id
+entifier (name{figure.3.2}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
@@ -2379,16 +2681,8 @@ ate ignored
                                                   
 l.4 ...r{Metrology Applications of Fluid Crystals}
                                                    <./figs/pal30/prc/spacedSm1P
-RC.png> <./figs/pal30/prc/3dplot-sm1.png>]
-
-LaTeX Warning: Text page 17 contains only floats.
-
-
-Overfull \vbox (22.48772pt too high) has occurred while \output is active []
-
-
-[17pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4
-}) has been already used, duplicate ignored
+RC.png>] [23pdfTeX warning (ext4): destination with the same identifier (name{f
+igure.3.4}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
@@ -2402,29 +2696,36 @@ ate ignored
 l.4 ...r{Metrology Applications of Fluid Crystals}
                                                    <./figs/pal30/xraysm1/rsosxS
 maT113-modified.png (PNG copy)> <./figs/pal30/xraysm1/sm1-saxs-annote.png>]
+[24pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6
+}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.4 ...r{Metrology Applications of Fluid Crystals}
+                                                   <./figs/pal30/deVries/dvAlig
+n.png>]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 4.
 centered
-<./figs/racetrack/intro/Figure1.pdf, id=493, 219.11108pt x 223.63849pt>
+<./figs/racetrack/intro/Figure1.pdf, id=670, 219.11108pt x 223.63849pt>
 File: ./figs/racetrack/intro/Figure1.pdf Graphic file (type pdf)
 
 <use ./figs/racetrack/intro/Figure1.pdf>
 Package pdftex.def Info: ./figs/racetrack/intro/Figure1.pdf used on input line 
 15.
 (pdftex.def)             Requested size: 281.85585pt x 287.69972pt.
- [18
+ [25
 
-] [19pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+] [26pdfTeX warning (ext4): destination with the same identifier (name{figure.4
 .1}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
 l.51 
-      <./figs/racetrack/intro/Figure1.pdf>]
+      <./figs/racetrack/intro/Figure1.pdf>] [27]
 
-LaTeX Warning: Citation `Deschamps2008' on page 20 undefined on input line 78.
+LaTeX Warning: Citation `Deschamps2008' on page 28 undefined on input line 78.
 
-[20]
-<./figs/racetrack/theory/theory-final.pdf, id=547, 232.99542pt x 213.04628pt>
+<./figs/racetrack/theory/theory-final.pdf, id=724, 232.99542pt x 213.04628pt>
 File: ./figs/racetrack/theory/theory-final.pdf Graphic file (type pdf)
 
 <use ./figs/racetrack/theory/theory-final.pdf>
@@ -2436,107 +2737,108 @@ Package pdftex.def Info: ./figs/racetrack/theory/theory-final.pdf used on input
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Citation `Schneider2006' on page 21 undefined on input line 129.
+LaTeX Warning: Citation `Schneider2006' on page 28 undefined on input line 129.
 
 
-[21] [22pdfTeX warning (ext4): destination with the same identifier (name{figur
+[28] [29pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.4.2}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.151      T
-            he results of these simulations then allow us to see whether the <.
-/figs/racetrack/theory/theory-final.pdf>]
-<./figs/racetrack/simulation/simulation.pdf, id=584, 257.77052pt x 378.69865pt>
+l.143 
+       <./figs/racetrack/theory/theory-final.pdf>]
+<./figs/racetrack/simulation/simulation.pdf, id=761, 257.77052pt x 378.69865pt>
 File: ./figs/racetrack/simulation/simulation.pdf Graphic file (type pdf)
 <use ./figs/racetrack/simulation/simulation.pdf>
 Package pdftex.def Info: ./figs/racetrack/simulation/simulation.pdf used on inp
 ut line 189.
 (pdftex.def)             Requested size: 281.85585pt x 414.11395pt.
+ [30] [31pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.4.3}) has been already used, duplicate ignored
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<./figs/racetrack/bigfigure/mainresults.png, id=585, 231.0231pt x 293.05486pt>
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.212 
+       <./figs/racetrack/simulation/simulation.pdf>]
+<./figs/racetrack/bigfigure/mainresults.png, id=814, 231.0231pt x 293.05486pt>
 File: ./figs/racetrack/bigfigure/mainresults.png Graphic file (type png)
 
 <use ./figs/racetrack/bigfigure/mainresults.png>
 Package pdftex.def Info: ./figs/racetrack/bigfigure/mainresults.png used on inp
 ut line 217.
 (pdftex.def)             Requested size: 281.85585pt x 357.57109pt.
- [23] [24pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.4.3}) has been already used, duplicate ignored
+ [32] [33pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.4.4}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.246 
-       <./figs/racetrack/simulation/simulation.pdf>] [25pdfTeX warning (ext4): 
-destination with the same identifier (name{figure.4.4}) has been already used, 
-duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.246 
-       <./figs/racetrack/bigfigure/mainresults.png>] [26]) (./aagreenthesis.bbl
-[27]
+l.277 
+       <./figs/racetrack/bigfigure/mainresults.png>]) (./aagreenthesis.bbl
+[34]
 centered
 
-Underfull \hbox (badness 5578) in paragraph at lines 19--26
-[]\T1/cmr/m/n/10.95 (+20) Th. Dra-cos.  Par-ti-cle Track-ing Ve-locime-try (PTV
-).  In Th. Dra-cos, ed-i-tor,
+Underfull \hbox (badness 1360) in paragraph at lines 38--45
+[]\T1/cmr/m/n/12 (+20) Th. Dra-cos.  Par-ti-cle Track-ing Ve-locime-try (PTV). 
+ In Th. Dra-cos, ed-i-tor,
  []
 
+[35
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--26
-|   []   |   []   |   []   |   []   |   []
- []
-
-[28
-
-]) [29]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
+] [36] [37] [38]) [39]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
  (./aagreenthesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
-Package rerunfilecheck Info: File `aagreenthesis.out' has not changed.
-(rerunfilecheck)             Checksum: 79EFDB7D6A14571786D05B2C2F05E4DD;2482.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
 
+
+Package rerunfilecheck Warning: File `aagreenthesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `aagreenthesis.out':
+(rerunfilecheck)             Before: 390996A8A114CD28EDD3EC72F22984CA;2013
+(rerunfilecheck)             After:  AF56B5DFBCB79991DE5279B010ECEE8C;2047.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
- 29359 strings out of 493029
- 578806 string characters out of 6136235
- 659569 words of memory out of 5000000
- 32129 multiletter control sequences out of 15000+600000
- 33554 words of font info for 165 fonts, out of 8000000 for 9000
+ 29500 strings out of 493029
+ 582317 string characters out of 6136235
+ 674926 words of memory out of 5000000
+ 32214 multiletter control sequences out of 15000+600000
+ 36014 words of font info for 175 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,13n,77p,10449b,1240s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
-/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/
-msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/sha
-re/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1
-/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfr
-m0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/shar
-e/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on aagreenthesis.pdf (41 pages, 59657914 bytes).
+ 69i,14n,77p,10388b,1252s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{chapter*.8} has been referenced but does not exis
+t, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fo
+nts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type
+1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
+bx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/sha
+re/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1
+/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sft
+i1200.pfb>
+Output written on aagreenthesis.pdf (54 pages, 67580206 bytes).
 PDF statistics:
- 748 PDF objects out of 1000 (max. 8388607)
- 619 compressed objects within 7 object streams
- 134 named destinations out of 1000 (max. 500000)
- 35681 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 951 PDF objects out of 1000 (max. 8388607)
+ 791 compressed objects within 8 object streams
+ 166 named destinations out of 1000 (max. 500000)
+ 37722 words of extra memory for PDF output out of 42996 (max. 10000000)
 

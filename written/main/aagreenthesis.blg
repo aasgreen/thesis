@@ -1,0 +1,83 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: aagreenthesis.aux
+The style file: plain.bst
+Database file #1: pal30.bib
+Database file #2: refs.bib
+Warning--entry type for "AllantrackpyTrackpyv02018" isn't style-file defined
+--line 5748 of file refs.bib
+Warning--entry type for "ParmarPressuresensorusing1994" isn't style-file defined
+--line 5790 of file refs.bib
+Warning--I didn't find a database entry for "edThesis"
+Warning--I didn't find a database entry for "Deschamps2008"
+Warning--I didn't find a database entry for "Schneider2006"
+Warning--empty journal in Adamczyk2Dimensionalparticletracking1988
+Warning--empty year in Adamczyk2Dimensionalparticletracking1988
+Warning--empty year in AdrianParticleImageVelocimetry2011
+Warning--empty year in DracosParticleTrackingVelocimetry1996
+Warning--empty year in GovierFlowComplexMixtures2008
+Warning--empty journal in HuhUseAirLiquidTwoPhase2002
+Warning--empty year in HuhUseAirLiquidTwoPhase2002
+Warning--empty journal in KuriabovaHydrodynamicinteractionsfreely2016
+Warning--empty year in KuriabovaHydrodynamicinteractionsfreely2016
+Warning--empty journal in Parmarnovelboundarylayer1991
+Warning--empty year in Parmarnovelboundarylayer1991
+Warning--empty journal in PindakTwodimensionalsystems1982
+Warning--empty year in PindakTwodimensionalsystems1982
+Warning--empty journal in QiActivemicrorheologysmectic2017
+Warning--empty year in QiActivemicrorheologysmectic2017
+Warning--empty journal in QiMutualDiffusionInclusions2014
+Warning--empty year in QiMutualDiffusionInclusions2014
+Warning--empty year in RaffelParticleImageVelocimetry2018
+Warning--empty journal in RosenblattOpticaldeterminationsmectic1980
+Warning--empty year in RosenblattOpticaldeterminationsmectic1980
+Warning--empty journal in RosenblattFreelySuspendedFerroelectric1979
+Warning--empty year in RosenblattFreelySuspendedFerroelectric1979
+Warning--empty journal in Wellertensorialapproachcomputational1998
+Warning--empty year in Wellertensorialapproachcomputational1998
+Warning--empty journal in YablonskiiPressuresensorbased2002
+Warning--empty year in YablonskiiPressuresensorbased2002
+Warning--empty journal in YoungLightScatteringStudyTwoDimensional1978
+Warning--empty year in YoungLightScatteringStudyTwoDimensional1978
+You've used 50 entries,
+            2118 wiz_defined-function locations,
+            821 strings with 16549 characters,
+and the built_in function-call counts, 21361 in all, are:
+= -- 1891
+> -- 1556
+< -- 1
++ -- 616
+- -- 563
+* -- 1969
+:= -- 3706
+add.period$ -- 149
+call.type$ -- 50
+change.case$ -- 427
+chr.to.int$ -- 0
+cite$ -- 78
+duplicate$ -- 559
+empty$ -- 1307
+format.name$ -- 563
+if$ -- 4134
+int.to.chr$ -- 0
+int.to.str$ -- 50
+missing$ -- 52
+newline$ -- 251
+num.names$ -- 102
+pop$ -- 424
+preamble$ -- 1
+purify$ -- 380
+quote$ -- 0
+skip$ -- 359
+stack$ -- 0
+substring$ -- 1176
+swap$ -- 47
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 192
+warning$ -- 28
+while$ -- 162
+width$ -- 52
+write$ -- 515
+(There were 33 warnings)

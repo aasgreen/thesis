@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{abberley2018heliconical}
+Jordan~P. Abberley, Ross Killah, Rebecca Walker, John M.~D. Storey, Corrie~T.
+  Imrie, Miroslaw Salamonczyk, Chenhui Zhu, Ewa Gorecka, and Damian Pociecha.
+\newblock Heliconical smectic phases formed by achiral molecules.
+\newblock {\em Nature Communications}, 9:2856, JUL 17 2018.
+
 \bibitem{Adamczyk2Dimensionalparticletracking1988}
 A.~A. Adamczyk and L.~Rimai.
 \newblock 2-{{Dimensional}} particle tracking velocimetry ({{PTV}}):
@@ -15,6 +21,19 @@ Ronald~J. Adrian and Jerry Westerweel.
 Daniel~B. Allan, Thomas Caswell, Nathan~C. Keim, and Casper~M. van~der Wel.
 \newblock Trackpy: {{Trackpy}} v0.4.1.
 
+\bibitem{Barois2012review}
+P.~Barois, H.~Gleeson, C.~C. Huang, and R.~Pindak.
+\newblock Application of x-ray resonant diffraction to structural studies of
+  liquid crystals.
+\newblock {\em The European Physical Journal Special Topics}, 208(1):333--350,
+  Jun 2012.
+
+\bibitem{chattham_triclinic_2010}
+Nattaporn Chattham, Eva Korblova, Renfan Shao, David~M. Walba, Joseph~E.
+  Maclennan, and Noel~A. Clark.
+\newblock Triclinic {Fluid} {Order}.
+\newblock {\em Phys. Rev. Lett.}, 104(6):067801, February 2010.
+
 \bibitem{DracosParticleTrackingVelocimetry1996}
 Th. Dracos.
 \newblock Particle {{Tracking Velocimetry}} ({{PTV}}).
@@ -24,10 +43,56 @@ Th. Dracos.
   3\textendash{}6 {{September}} 1996}, {{ERCOFTAC Series}}, pages 155--160.
   {Springer Netherlands}.
 
+\bibitem{eremin_polar_2013}
+A.~Eremin and A.~J\'{a}kli.
+\newblock Polar bent-shape liq. cryst. – from molecular bend to layer splay
+  and chirality.
+\newblock {\em Soft Matter}, 9(3):615--637, 2013.
+
+\bibitem{eremin2008electrically}
+Alexey Eremin, Stephan Stern, and Ralf Stannarius.
+\newblock Electrically induced tilt in achiral bent-core liquid crystals.
+\newblock {\em Phys. Rev. Lett.}, 101:247802, Dec 2008.
+
+\bibitem{findeisen2008multistage}
+Sonja Findeisen-Tandel, Martin~W Schr{\"o}der, Gerhard Pelzl, Uta Baumeister,
+  Wolfgang Weissflog, S~Stern, Alexandru Nemes, Ralf Stannarius, and Alexey
+  Eremin.
+\newblock Multistage polar switching in bent-core mesogens.
+\newblock {\em The European Physical Journal E}, 25(4):395--402, 2008.
+
+\bibitem{folcia2014spontaneous}
+CL~Folcia, J~Ortega, J~Etxebarria, S~Rodriguez-Conde, G~Sanz-Enguita, K~Geese,
+  C~Tschierske, V~Ponsinet, P~Barois, R~Pindak, et~al.
+\newblock Spontaneous and field-induced mesomorphism of a silyl-terminated
+  bent-core liquid crystal as determined from second-harmonic generation and
+  resonant x-ray scattering.
+\newblock {\em Soft Matter}, 10(1):196--205, 2014.
+
+\bibitem{gleeson_resonant_2006}
+Helen~F. Gleeson and Linda~S. Hirst.
+\newblock Resonant {X}-ray {Scattering}: {A} {Tool} for {Structure}
+  {Elucidation} in {Liquid} {Crystals}.
+\newblock {\em ChemPhysChem}, 7(2):321--328, February 2006.
+
 \bibitem{GovierFlowComplexMixtures2008}
 George~Wheeler Govier and Khalid Aziz.
 \newblock {\em The {{Flow}} of {{Complex Mixtures}} in {{Pipes}}}.
 \newblock {Society of Petroleum Engineers}, 2 edition.
+
+\bibitem{hirst2002interlayer}
+L.~S. Hirst, S.~J. Watson, H.~F. Gleeson, P.~Cluzeau, P.~Barois, R.~Pindak,
+  J.~Pitney, A.~Cady, P.~M. Johnson, C.~C. Huang, A-M. Levelut, G.~Srajer,
+  J.~Pollmann, W.~Caliebe, A.~Seed, M.~R. Herbert, J.~W. Goodby, and M.~Hird.
+\newblock Interlayer structures of the chiral smectic liquid crystal phases
+  revealed by resonant x-ray scattering.
+\newblock {\em Phys. Rev. E}, 65:041705, Apr 2002.
+
+\bibitem{huang2015liquid}
+C.~C Huang, Shun Wang, LiDong Pan, Z.~Q Liu, B.~K McCoy, Yuji Sasaki, Kenji
+  Ema, P~Barois, and Ron Pindak.
+\newblock Liquid crystal mesophases beyond commensurate four-layer periodicity.
+\newblock {\em Liq. Crys. Rev.}, 3(1):58--78, 2015.
 
 \bibitem{HuhUseAirLiquidTwoPhase2002}
 Dongeun Huh, Yi-Chung Tung, Hsien-Hung Wei, James~B. Grotberg, Steven~J.
@@ -35,6 +100,11 @@ Dongeun Huh, Yi-Chung Tung, Hsien-Hung Wei, James~B. Grotberg, Steven~J.
 \newblock Use of {{Air}}-{{Liquid Two}}-{{Phase Flow}} in {{Hydrophobic
   Microfluidic Channels}} for {{Disposable Flow Cytometers}}.
 \newblock 4(2):141--149.
+
+\bibitem{ilavsky2012nika}
+Jan Ilavsky.
+\newblock Nika: Software for two-dimensional data reduction.
+\newblock {\em J. Appl. Crystallogr.}, 45(2):324--328, 2012.
 
 \bibitem{KuriabovaHydrodynamicinteractionsfreely2016}
 Tatiana Kuriabova, Thomas~R. Powers, Zhiyuan Qi, Aaron Goldfain, Cheol~Soo
@@ -47,12 +117,44 @@ Anne-Marie Levelut and Brigitte Pansu.
 \newblock Tensorial x-ray structure factor in smectic liquid crystals.
 \newblock {\em Phys. Rev. E}, 60(6):6803, 1999.
 
+\bibitem{li1995reversible}
+Jian-Feng Li, Xin-Yi Wang, Erik Kangas, P.~L. Taylor, Charles Rosenblatt,
+  Yoshi-Ichi Suzuki, and P.~E. Cladis.
+\newblock Reversible propagating fingers in an antiferroelectric liquid
+  crystal.
+\newblock {\em Physical Review B}, 52(18):R13075, 1995.
+
 \bibitem{link_spontaneous_1997}
 Darren~R. Link, Giorgio Natale, Renfan Shao, Joseph~E. Maclennan, Noel~A.
   Clark, Eva K{\"o}rblova, and David~M. Walba.
 \newblock Spontaneous {Formation} of {Macroscopic} {Chiral} {Domains} in a
   {Fluid} {Smectic} {Phase} of {Achiral} {Molecules}.
 \newblock {\em Science}, 278(5345):1924--1927, December 1997.
+
+\bibitem{liu2016resonant}
+Feng Liu, Michael~A Brady, and Cheng Wang.
+\newblock Resonant soft x-ray scattering for polymer materials.
+\newblock {\em Eur. Polym. J.}, 81:555--568, 2016.
+
+\bibitem{mach_structures_1999}
+P.~Mach, R.~Pindak, A.-M. Levelut, P.~Barois, H.~T. Nguyen, H.~Baltes, M.~Hird,
+  K.~Toyne, A.~Seed, J.~W. Goodby, C.~C. Huang, and L.~Furenlid.
+\newblock Structures of chiral smectic-{C} mesophases revealed by
+  polarization-analyzed resonant x-ray scattering.
+\newblock {\em Phys. Rev. E}, 60(6):6793--6802, December 1999.
+
+\bibitem{mach_structural_1998}
+P.~Mach, R.~Pindak, A.-M. Levelut, P.~Barois, H.~T. Nguyen, C.~C. Huang, and
+  L.~Furenlid.
+\newblock Structural characterization of various chiral smectic-{C} phases by
+  resonant {X}-ray scattering.
+\newblock {\em Phys. Rev. Lett.}, 81(5):1015, 1998.
+
+\bibitem{niori_distinct_1996}
+T.~Niori, T.~Sekine, J.~Watanabe, T.~Furukawa, and H.~Takezoe.
+\newblock Distinct ferroelectric smectic liq. cryst. consisting of banana
+  shaped achiral molecules.
+\newblock {\em J. Mater. Chem.}, 6(7):1231--1233, January 1996.
 
 \bibitem{panarin_sequence_2011}
 Y.~P. Panarin, M.~Nagaraj, S.~Sreenilayam, J.~K. Vij, A.~Lehmann, and
@@ -96,11 +198,13 @@ Markus Raffel, Christian~E. Willert, Fulvio Scarano, Christian~J. K\"ahler,
 \newblock {\em Particle {{Image Velocimetry}}: {{A Practical Guide}}}.
 \newblock {Springer}.
 
-\bibitem{ReddyInfluencefluorinesubstituent2003}
-R.~Amaranatha Reddy and B.~K. Sadashivaa.
-\newblock Influence of fluorine substituent on the mesomorphic properties of
-  five-ring ester banana-shaped molecules.
-\newblock 30(9):1031--1050.
+\bibitem{reddy_spontaneous_2011}
+R.~Amaranatha Reddy, Chenhui Zhu, Renfan Shao, Eva Korblova, Tao Gong,
+  Yongqiang Shen, Edgardo Garcia, Matthew~A. Glaser, Joseph~E. Maclennan,
+  David~M. Walba, and Noel~A. Clark.
+\newblock Spontaneous {Ferroelectric} {Order} in a {Bent}-{Core} {Smectic}
+  {Liquid} {Crystal} of {Fluid} {Orthorhombic} {Layers}.
+\newblock {\em Science}, 332(6025):72--77, April 2011.
 
 \bibitem{RosenblattOpticaldeterminationsmectic1980}
 Charles Rosenblatt and Nabil~M. Amer.
@@ -115,6 +219,20 @@ Charles Rosenblatt, Ronald Pindak, Noel~A. Clark, and Robert~B. Meyer.
   {{Viscosities}}.
 \newblock 42(18):1220--1223.
 
+\bibitem{salamonczyk2017structure}
+Miros{\l}aw Salamo{\'n}czyk, Nata{\v{s}}a Vaupoti{\v{c}}, Damian Pociecha,
+  Cheng Wang, Chenhui Zhu, and Ewa Gorecka.
+\newblock Structure of nanoscale-pitch helical phases: blue phase and
+  twist-bend nematic phase resolved by resonant soft x-ray scattering.
+\newblock {\em Soft matter}, 13(38):6694--6699, 2017.
+
+\bibitem{shen2011effective}
+Yongqiang Shen, Tao Gong, Renfan Shao, Eva Korblova, Joseph~E Maclennan,
+  David~M Walba, and Noel~A Clark.
+\newblock Effective conductivity due to continuous polarization reorientation
+  in fluid ferroelectrics.
+\newblock {\em Phys. Rev. E}, 84(2):020701, 2011.
+
 \bibitem{sreenilayam_properties_2012}
 S.~Sreenilayam, M.~Nagaraj, Y.~P. Panarin, J.~K. Vij, A.~Lehmann, and
   C.~Tschierske.
@@ -122,18 +240,45 @@ S.~Sreenilayam, M.~Nagaraj, Y.~P. Panarin, J.~K. Vij, A.~Lehmann, and
   {Liquid} {Crystal}.
 \newblock {\em Mol. Cryst. Liq. Cryst.}, 553(1):140--146, January 2012.
 
-\bibitem{SreenilayamOccurrenceFiveDifferent2015}
-S.~Sreenilayam, Yu.~P. Panarin, J.~K. Vij, A.~Lehmann, and C.~Tschierske.
-\newblock Occurrence of {{Five Different Orthogonal Smectic Phases}} in a
-  {{Bent}}-{{Core}} ({{BC}}) {{Liquid Crystal}}.
-\newblock 610(1):116--121.
-
 \bibitem{sreenilayam_spontaneous_2016}
 Sithara~P. Sreenilayam, Yuri~P. Panarin, Jagdish~K. Vij, Vitaly~P. Panov, Anne
   Lehmann, Marco Poppe, Marko Prehm, and Carsten Tschierske.
 \newblock Spontaneous helix formation in non-chiral bent-core liq. cryst. with
   fast linear electro-optic effect.
 \newblock {\em Nat. Commun.}, 7:11369, May 2016.
+
+\bibitem{takanishi2015chiral}
+Yoichi Takanishi, Youko Ohtsuka, Yumiko Takahashi, Sungmin Kang, and Atsuo
+  Iida.
+\newblock Chiral doping effect in the b2 phase of a bent-core liquid crystal:
+  The observation of resonant x-ray satellite peaks assigned to the 5/10 layer
+  periodic structure.
+\newblock {\em Europhysics Letters}, 109(5):56003, 2015.
+
+\bibitem{takezoe_bent-core_2006}
+H.~Takezoe and Y.~Takanishi.
+\newblock Bent-{Core} {Liquid} {Crystals}: {Their} {Mysterious} and
+  {Attractive} {World}.
+\newblock {\em Jpn. J. Appl. Phys.}, 45(2R):597, February 2006.
+
+\bibitem{takezoe2017bent}
+Hideo Takezoe and Alexey Eremin.
+\newblock {\em Bent-shaped Liquid Crystals: Structures and Physical
+  Properties}.
+\newblock CRC Press, 2017.
+
+\bibitem{takezoe2010antiferroelectric}
+Hideo Takezoe, Ewa Gorecka, and Mojca {\v{C}}epi{\v{c}}.
+\newblock Antiferroelectric liquid crystals: interplay of simplicity and
+  complexity.
+\newblock {\em Rev. Mod. Phys.}, 82(1):897, 2010.
+
+\bibitem{wang2011defining}
+Cheng Wang, Dong~Hyun Lee, Alexander Hexemer, Myung~Im Kim, Wei Zhao, Hirokazu
+  Hasegawa, Harald Ade, and Thomas~P Russell.
+\newblock Defining the nanostructured morphology of triblock copolymers using
+  resonant soft x-ray scattering.
+\newblock {\em Nano Lett.}, 11(9):3906--3911, 2011.
 
 \bibitem{Wellertensorialapproachcomputational1998}
 H.~G. Weller, G.~Tabor, H.~Jasak, and C.~Fureby.
@@ -153,5 +298,27 @@ Charles~Y. Young, Ronald Pindak, Noel~A. Clark, and Robert~B. Meyer.
   Molecular}}-{{Orientation Fluctuations}} in a {{Freely Suspended
   Ferroelectric Liquid}}-{{Crystal Film}}.
 \newblock 40(12):773--776.
+
+\bibitem{zhang2010glassy}
+Fan Zhang, Jan Ilavsky, Gabrielle~G Long, John P.~G Quintana, Andrew~J Allen,
+  and Pete~R Jemian.
+\newblock Glassy carbon as an absolute intensity calibration standard for
+  small-angle scattering.
+\newblock {\em Metall. Mater. Trans. A}, 41(5):1151--1158, 2010.
+
+\bibitem{zhu2016resonant}
+Chenhui Zhu, Michael~R Tuchband, Anthony Young, Min Shuai, Alyssa Scarbrough,
+  David~M Walba, Joseph~E Maclennan, Cheng Wang, Alexander Hexemer, and Noel~A
+  Clark.
+\newblock Resonant carbon k-edge soft x-ray scattering from lattice-free
+  heliconical molecular ordering: soft dilative elasticity of the twist-bend
+  liquid crystal phase.
+\newblock {\em Phys. Rev. Lett.}, 116(14):147803, 2016.
+
+\bibitem{zhu2015probing}
+Chenhui Zhu, Cheng Wang, Anthony Young, Feng Liu, Ilja Gunkel, Dong Chen, David
+  Walba, Joseph Maclennan, Noel Clark, and Alexander Hexemer.
+\newblock Probing and controlling liquid crystal helical nanofilaments.
+\newblock {\em Nano Lett.}, 15(5):3420--3424, 2015.
 
 \end{thebibliography}
