@@ -40,7 +40,7 @@ take the broadest view of a de Vries: it is a tilted phase with no long-range
 order present in the tilt order parameter.
 
 Even this broad definition is not free from ambiguity--- what entails long-range
-order? We will also see in this Chapter that the de Vries phase can be
+order, and does it matter how the escape from long-range order is achieved? We will also see in this Chapter that the de Vries phase can be
 suppressed quite easily by a strong-alignment layer.
 
 
@@ -55,8 +55,116 @@ We claim that \nfour{} is tilted for the following reasons: the smectic layer sp
 significantly less than the extended molecular length; the lower temperature
 phases are proven to be chiral (therefore tilted), and there is no observed
 smectic layer-contraction observed on cooling, which would be expected for an
-orthogonal$\rightarrow$ tilted phase transition; there is no measured change in the birefringence which would be predicted from an orthogonal phase to the
-helical \smcpalpha{} (confirmed from RSoXS);  
+orthogonal$\rightarrow$ tilted phase transition; and there is no measured change in the birefringence which would be predicted from an orthogonal phase to the
+helical \smcpalpha{} (confirmed from RSoXS). All of these facts together suggest
+that the highest temperature smectic phase of \nfour{} is tilted.
+
+To see that there is no long-range order in the tilt order parameter, we can
+look at the textures of this phase and observe that they look orthogonal-- they
+have the clean lines of a focal conic SmA phase. This
+is neccesary but not sufficient, as other phase-- such as the \smcapa{} phase --
+can also appear to be orthogonal, yet have a definite anti-clinic long range
+order. This anti-clinic order (and other, more exotic long helical ordering of
+the tilt order paramter) would show up in resonant x-ray scattering. The fact
+that the resonant x-ray scattering shown in \autoref{fig:pal30:rsoxs} reveals
+zero periodic structure for \nfour{} confirms that the tilt order in the Sm1
+phase has no long-range order.
+
+The actual way that this is achieved is still ambigious. The simplest model,
+where the molecules are rotating freely around a cone whose opening angle is
+set by the molecular tilt seems unlikely from simple enthalpic space-filling
+arguments which would seem to exclude a model where neighboring molecules can be
+pointing in completely opposite directions with no energy cost. On the surface,
+this seems to be false, but close observation of the c-director flucuations
+that occur in freely-suspended-films shows that at the molecular level the
+c-director can easily be flucuating with $\pi$-rotations measured against
+neighboring molecules, so we cannot rule out this type of behaviour purely on
+enthalpic concerns.\todo{need to find de gennes/noels argument for this} This is
+fluid-like model, where the molecules are actively rotating with no regard for their
+neighbors space.
+
+By including these enthalpic considerations we can build model where short-range order persists, but the size of
+these ordered domains is small, and they are randomally distributed such that
+an ensemble average of the tilt is zero. This is more of a disordered-crystal
+model, where short-range order persists, but is distributed in such a way that the
+macroscopic order parameter is still zero-- much like the example of a cooled
+ising model developing local ferroelectric ordering of spins, even though the
+total magnetization remains zero. 
+
+Regardless of how this long-range tilt order is broken, because these are polar
+molecules, we also have to consider the polar-ordering present in any phase.
+The way that the polar and tilt interact in the high-temperature de Vries SmA of
+\nfour{} is unique to bent-cores.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\textwidth]{./figs/pal30/prc/PRCvsTilt/PRCVtilt.png}
+    \caption{\label{fig:homog:pal30pvt} The polarization current and the optical
+    tilt plotted as a function of applied field strength for both the Sm1
+(de Vries SmA) (a,b) and the Sm2 (\smcpalpha{}) (c-d). The polarization current
+has additionally been integrated to calculate the time-dependant net
+polarization. The threshold electric field ($E_\textrm{th}$) required to manifest the tiger-stripes can
+be directly read from the green curve denoting the optical tilt (for
+T=\SI{110}{\degreeCelsius}, $E_\textrm{th} \approx \SI{5}{\volt\per\micro\metre}$),
+and the saturation electric field where the net polarization is no longer
+changing ($E_\textrm{sat}$) can be directly
+read from the red curve, which denotes the net polarization, (for
+T=\SI{110}{\degreeCelsius}, $E_\textrm{sat} \approx \SI{5}{\volt\per\micro\metre}$).
+Both $E_\textrm{th}$ and $E_\textrm{sat}$ are plotted in as the inset of
+\autoref{fig:threshold}. }
+\end{figure}
+
+The polarization current has been integrated to give the net polarization, which
+is a direct measure of the ensemble average of the molecular orientation with an
+applied electric field. The optical tilt measurements were done by analyzing the
+contrast between adjacent stripes\todo{small figure showing this}. In the ground
+state, where there is no long-range order present in tilt, the contrast is zero.
+At a field whose strength is over some threshold value ($E_\textrm{th}$), the
+state transitions into a tilted (therefore chiral) state. The handedness of the
+domain sets the tilt direction. This tilt can be directly measured as it is
+proportional to the contrast between different handed domains:
+\begin{equation}
+    \textrm{contrast}\propto \sin(4\theta)
+\end{equation}\todo{check this}.
+Barring pathological examples, \textit{any} alignment, orientation, or movement
+of the molecular long axis will show up as the observable seperation of the
+texture into chiral domains. 
+
+
+With some unique exceptions\cite{michi}\todo{cite michi}
+most bent-core systems have the tilt and
+polarity strongly coupled: where one moves, the other follows. Through symmetry,
+this can be expressed as the condition that rotations around the molecular long
+axis are forbidden: to transition to different states, the molecule must rotate
+around the smectic layer normal, confined to the tilt-cone.
+\autoref{fig:homog:pal30pvt} clearly shows that the movement of the polar
+director (rotations around the long axis of the molecule) is decoupled from the
+movement of the c-director (rotations around the smectic layer normal on the
+tilt-cone).\todo{small inline figure of this} The polarization first saturates
+before there is any detectable movement of the tilt-director. The previous
+examples of this occuring in bent-cores required pulse-engineering the applied
+voltage,
+where a very large, fast voltage needed to be applied to see rotations around
+the long axis of the molecule. \nfour{} is the first molecule where the polar
+and tilt order have been confirmed to be decoupled in its ground-state.
+
+This decoupling results in 
+an important distinction because, unlike their calamitic cousins, these
+bent-core molecules are not inherently chiral. They are only develop chirality
+once they pack into phases. they require tilt and smectic ordering
+before the mirror-symmetry breaking required for chirality is achieved. They
+also require that the tilt and polar order are strongly coupled--free rotations
+around the long-axis result in a return of mirror-symmetry and the chirality of
+the phase is broken. In contrast to the calamtics, who merely have to `discover'
+their own inherent chirality once a field is applied (for instance, in the
+electroclinic effect), the bent-cores must spontaneously create their own. This
+is not a new discovery, the B2 phases\cite{link_spontaneous_1997} have long been
+known to develop spontaneous chirality on cooling from an achiral phase. This is
+the first discovery of field-activated chirality in a bent-core system, where
+chirality is induced at a certain voltage, but then returns to an achiral ground
+state when the voltage is removed.
+
+
 The closest thing to a developed model for this phase is the Landau-de Gennes
 model put forth by Eremin et al.\cite{eremin2008electrically} where they
 discovered an electro-clinic analog in a hockey-stick compound. 
