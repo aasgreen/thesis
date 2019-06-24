@@ -4,11 +4,33 @@ The top-level auxiliary file: aagreenthesis.aux
 The style file: plain.bst
 Database file #1: pal30.bib
 Database file #2: refs.bib
+Repeated entry---line 137 of file refs.bib
+ : @article{SreenilayamSpontaneoushelixformation2016
+ :                                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2367 of file refs.bib
+ : @article{SreenilayamDevelopmentferroelectricitysmectic2017
+ :                                                           ,
+I'm skipping whatever remains of this entry
 Warning--entry type for "AllantrackpyTrackpyv02018" isn't style-file defined
 --line 5748 of file refs.bib
 Warning--entry type for "ParmarPressuresensorusing1994" isn't style-file defined
 --line 5790 of file refs.bib
+Database file #3: PAL30v2.bib
+Repeated entry---line 70 of file PAL30v2.bib
+ : @article{SreenilayamSpontaneoushelixformation2016
+ :                                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1073 of file PAL30v2.bib
+ : @article{SreenilayamDevelopmentferroelectricitysmectic2017
+ :                                                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2009 of file PAL30v2.bib
+ : @article{VijInvestigationheliconicalsmectic2019
+ :                                                ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "edThesis"
+Warning--I didn't find a database entry for "jansThesis"
 Warning--I didn't find a database entry for "Deschamps2008"
 Warning--I didn't find a database entry for "Schneider2006"
 Warning--empty journal in Adamczyk2Dimensionalparticletracking1988
@@ -33,51 +55,53 @@ Warning--empty journal in RosenblattOpticaldeterminationsmectic1980
 Warning--empty year in RosenblattOpticaldeterminationsmectic1980
 Warning--empty journal in RosenblattFreelySuspendedFerroelectric1979
 Warning--empty year in RosenblattFreelySuspendedFerroelectric1979
+Warning--empty journal in VijInvestigationheliconicalsmectic2019
+Warning--empty year in VijInvestigationheliconicalsmectic2019
 Warning--empty journal in Wellertensorialapproachcomputational1998
 Warning--empty year in Wellertensorialapproachcomputational1998
 Warning--empty journal in YablonskiiPressuresensorbased2002
 Warning--empty year in YablonskiiPressuresensorbased2002
 Warning--empty journal in YoungLightScatteringStudyTwoDimensional1978
 Warning--empty year in YoungLightScatteringStudyTwoDimensional1978
-You've used 50 entries,
+You've used 53 entries,
             2118 wiz_defined-function locations,
-            821 strings with 16549 characters,
-and the built_in function-call counts, 21361 in all, are:
-= -- 1891
-> -- 1556
+            837 strings with 17529 characters,
+and the built_in function-call counts, 22687 in all, are:
+= -- 2004
+> -- 1660
 < -- 1
-+ -- 616
-- -- 563
-* -- 1969
-:= -- 3706
-add.period$ -- 149
-call.type$ -- 50
-change.case$ -- 427
++ -- 657
+- -- 601
+* -- 2098
+:= -- 3940
+add.period$ -- 158
+call.type$ -- 53
+change.case$ -- 455
 chr.to.int$ -- 0
-cite$ -- 78
-duplicate$ -- 559
-empty$ -- 1307
-format.name$ -- 563
-if$ -- 4134
+cite$ -- 83
+duplicate$ -- 592
+empty$ -- 1383
+format.name$ -- 601
+if$ -- 4386
 int.to.chr$ -- 0
-int.to.str$ -- 50
-missing$ -- 52
-newline$ -- 251
-num.names$ -- 102
-pop$ -- 424
+int.to.str$ -- 53
+missing$ -- 55
+newline$ -- 266
+num.names$ -- 108
+pop$ -- 450
 preamble$ -- 1
-purify$ -- 380
+purify$ -- 405
 quote$ -- 0
-skip$ -- 359
+skip$ -- 379
 stack$ -- 0
-substring$ -- 1176
-swap$ -- 47
+substring$ -- 1242
+swap$ -- 49
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 192
-warning$ -- 28
-while$ -- 162
-width$ -- 52
-write$ -- 515
-(There were 33 warnings)
+type$ -- 204
+warning$ -- 30
+while$ -- 171
+width$ -- 55
+write$ -- 546
+(There were 5 error messages)
