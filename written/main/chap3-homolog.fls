@@ -1,4 +1,4 @@
-PWD /home/adam/Documents/thesis/written/main
+PWD /mnt/c/Users/rings/Documents/Work/thesis/written/main
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -337,6 +337,15 @@ INPUT ./figs/pal30/xraysm1/sm1-saxs-annote.png
 INPUT figs/pal30/deVries/dvAlign.png
 INPUT ./figs/pal30/deVries/dvAlign.png
 INPUT ./figs/pal30/deVries/dvAlign.png
+INPUT figs/pal30/future/LCvIn116.png
+INPUT ./figs/pal30/future/LCvIn116.png
+INPUT ./figs/pal30/future/LCvIn116.png
+INPUT figs/pal30/future/LCvIn110.png
+INPUT ./figs/pal30/future/LCvIn110.png
+INPUT ./figs/pal30/future/LCvIn110.png
+INPUT figs/pal30/future/LCvIn100.png
+INPUT ./figs/pal30/future/LCvIn100.png
+INPUT ./figs/pal30/future/LCvIn100.png
 INPUT chap3-homolog.aux
 INPUT ./chap3-homolog.out
 INPUT ./chap3-homolog.out

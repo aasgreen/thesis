@@ -1,6 +1,6 @@
 \documentclass[aagreenthesis]{subfiles}
 \begin{document}
-\chapter{Structure-Property in the \nfour{} Homologous Series of Molecules}
+\chapter{Future Work: Structure-Property in the \nfour{} Homologous Series of Molecules}
 
 Now that the existance of the \smcpalpha{} and \smcapa{} phase have been put on
 a firm footing, we can extend this study to a broad category of molecules that
@@ -11,7 +11,7 @@ group\cite{SreenilayamSpontaneoushelixformation2016,SreenilayamDevelopmentferroe
 where the n16 and n18 compounds were studied and a helical phase was tentatively
 determined based on periodicities of around \SI{5}{\nano\meters} see in atomic
 force microscopy images.
-
+this is a test
 With the ability to directly probe the periodicity of these compounds with
 carbon K-edge resonant X-ray, we have the ability to provide direct evidence for
 helical phases in these molecules. The high-resolution provide by RSoXS
@@ -117,7 +117,7 @@ Both $E_\textrm{th}$ and $E_\textrm{sat}$ are plotted in as the inset of
 \end{figure}
 
 The polarization current has been integrated to give the net polarization, which
-is a direct measure of the ensemble average of the molecular orientation with an
+is a direct measure of the ensemble average of the molecular polar orientation with an
 applied electric field. The optical tilt measurements were done by analyzing the
 contrast between adjacent stripes\todo{small figure showing this}. In the ground
 state, where there is no long-range order present in tilt, the contrast is zero.
@@ -171,8 +171,11 @@ the first discovery of field-activated chirality in a bent-core system, where
 chirality is induced at a certain voltage, but then returns to an achiral ground
 state when the voltage is removed.
 
+The bent-core de Vries phase we discovered in \nfour{} has three defining
+characteristics: it is tilted; it has no long-range tilt-order present, and the
+polarity and tilt are decoupled.
 
-The closest thing to a developed model for this phase is the Landau-de Gennes
+One potential approach to modelling this phase is the Landau-de Gennes
 model put forth by Eremin et al.\cite{eremin2008electrically} where they
 discovered an electro-clinic analog in a hockey-stick compound. 
 \todo{get and show the molecule}
@@ -213,9 +216,27 @@ fitting parameters that will lead to overfitting and the model loses most of its
 predictive power.
 
 Because of this, efforts must be undertaken to develop a microscopic model of
-this de Vries phase.
+this de Vries phase. 
+
+
+\subsubsection{The Beginnings of a Microscopic Model for the Bent-Core de Vries}
+
+Though the full development of this theory is beyond the
+scope of this thesis, I will outline the steps that must be taken.
+
+First, the decoupling present between the polar and tilt order in the bent-core
+de Vries phase has to be experimentally
+quantified. This decoupling is realized when the molecule can rotate freely
+around the long axis, which can be described by a single angle, $\beta$. The other switching mode, common to convential bent-cores,
+is described by a rotation around the tilt cone, described by an angle $\theta$.
+\todo{include math section showing the rotation of this angle}
+\todo{using michi's model, discuss how we can quantify which mode of switching
+we are in}
+
+
 
 \subsection{Textures of bent-code de Vries phase}
+
 
 \begin{figure}[h!]
     \centering
@@ -264,6 +285,144 @@ text
     \includegraphics{figs/pal30/deVries/dvAlign.png}
     \caption{\label{}}
 \end{figure}
+
+\section{Alignment-Induced Phase Transitions}
+It is easy to ignore that when experimentalists preform phase characterization
+of liquid crystals, we are not only characterizing the phase in terms of the
+usual statistical mechanic variables of pressure and temperature, we also must
+include the variable of how this material was confined. An example of this is
+the suppression of the long-range helix in the SmC* anti-ferro phase\todo{cite
+noel's flc stuff} in thin cells. And for the majority of liquid crystal/soft
+matter systems, the conditions of confinement do not impact the bulk phase that
+dramatically, and we are right to ignore it.
+
+However, our investigation of the homologous series of molecules related to
+\nfour{} have revealed that the confinement conditions cannot be ignored for
+this series of molecules. \autoref{fig:n16textureCompare} shows the same
+material, \nsix{} in two different cells. One is an LC Vision cell, one is an
+Instec cell.
+\todo{need to find out what is used for the alignment layer}.
+
+The behaviour of the same material in these different cells is so different as
+to be a different phase. This observation goes a long way to explain why the
+original phase classification of \nfour{} was so contensious- it could be that
+the Dublin group was actually observing a different phase from our observations
+in Boulder.
+
+Though we are currently limited in our ability to compare the behaviour of these
+materials in different cells due to a dearth of available material, we can
+compare the electro-optic behaviour at different temperatures.
+
+\nsix{} begins switching at similiar temperatures on cooling from the isotropic
+phase, shown in \autoref{fig:future:n16t116}. In LC vision cells (which were used to characterize the \nfour{}
+compound), the response to an applied electric field manifests as the familiar
+tiger strips seen in \nfour{} (\autoref{fig:future:n16t116} (a-c)), with a subtle difference: while the tiger stripes
+seen in \nfour{} were parallel to the smectic layers \textit{on average}, they
+were wavy. The tiger-stripes seen in \nsix{} are straight, indicating that they
+are rigidly bound to the smectic layers. The implications of this are not
+understood.
+
+In the Instec cells, the response to an applied electric field manifest as a
+barely distinguishable change in contast in large block-like regions
+(\autoref{fig:future:n16t116}(d-f)). However,
+these phases look broadly similar-- an orthogonal-looking ground state that
+switches into some chiral phase. It is only on further cooling that the texture
+undergo a dramatic divergence.
+
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{figs/pal30/future/LCvIn116.png}
+    \caption{\label{fig:future:n16t116} Planar textures of \nsix{} at approximately
+        \SI{116}{\degreeCelsius} in an LC vision cell
+    (a-c) and an Instec cell (d-f) viewed under cross polarizers. Both cells use a polyimide anti-parallel
+alignment layer. The LC vision cell has clear focal conics, while the Instec
+cell is entirely aligned. Both textures manifest chirality, seen as the distinct
+difference between the textures with a negative or positive out-of-plane
+electric field applied. The contrast between handed domains shows up clearly in
+the LC vision cells (compare (g) and (i)) while the contrast in the Instec cells
+is barely distinguishable. }
+\end{figure}
+
+
+Cooling to \SI{110}{\degreeCelsius}  gives a familiar \smcapa{} like texture in
+the LC vision cells that looks identical to \nfour{}-- an orthogonal like phase
+that switches into a clearly chiral phase, with contrast between domains of
+alternating chirality (\autoref{fig:future:n16t110} (a-c)). However, the Instec cell appears to not be chiral-- the
+positive and negative applied field result in a texture that appears broadly
+identical, indicating a mirror symmetry in the phase that precludes
+chirality (\autoref{fig:future:n16t110} (d-f)). Instead, the birefringence
+increases in broad stripes that are parallel to the smectic layers. One possible
+explanation is that the alignment of the bottom-plate and top-plate of the cell
+aligned at opposite positions on the tilt-cone. This would give a texture that
+could appear orthogonal, even when the polarization has been universally aligned
+to an external field. This is not unheard of, and one way to rule this out would
+be to prepare a cell with an alignment layer on only one of the plates of the
+cell. The other possible explanation is that the dramatic alignment caused by
+the Instec cell, alongwith the unique decoupling of polarity and tilt seen in
+these molecules, are interacting in an unforeseen way. 
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{figs/pal30/future/LCvIn110.png}
+    \caption{\label{fig:future:n16t110}  Planar textures of \nsix{} at
+        approximately \SI{110}{\degreeCelsius} in an LC vision cell
+    (a-c) and an Instec cell (d-f) viewed under cross polarizers. Both cells use a polyimide anti-parallel
+alignment layer. The LC vision cell has clear focal conics, while the Instec
+cell is entirely aligned. Both textures manifest chirality, seen as the distinct
+difference between the textures with a negative or positive out-of-plane
+electric field applied. The contrast between handed domains shows up clearly in
+the LC vision cells (compare (g) and (i)) while the contrast in the Instec cells
+is barely distinguishable. }
+\end{figure}
+
+Further cooling to \SI{100}{\degreeCelsius} gives a unique texture in both the
+LC Vision cell, and the Instec cell, see \autoref{fig:future:n16t100}. While the \nfour{} textures in this phase
+had regular stiations of contrast present when an external field was applied,
+they did not manifest the riot of colour present in the \nsix{} textures, where
+bands of different birefringences appear overlaid bands of
+contrast\autoref{fig:future:n16t100}(a-c). The cause
+of this is currently unknown. It is also worth noting that this state appears to
+be long-lived, as inspection of the texture that was previously exposed to an
+electric field in \autoref{fig:future:n16t100} (b), still manifest faint
+striations, indicating that it has not fully relaxed to an achiral ground-state.  
+
+This stands in contrast to the Instec cell, whose response under an applied
+electric field has actually decreases. The bands of birefringence clearly
+visible at \SI{110}{\degreeCelsius} in \autoref{fig:future:n16t110} (d,f) have
+faded. However, the dark bands that form orthogonal to the layers (much like
+those caused by
+undulating layers in a SmA focal conic) which were only faintly visible at
+\SI{110}{\degreeCelsius} in \autoref{fig:future:n16t110} (d,f) are now more
+pronounced.
+
+\begin{figure}[h!]
+    \centering
+\includegraphics[width=\textwidth]{figs/pal30/future/LCvIn100.png}
+    \caption{\label{fig:future:n161t100}  Planar textures of \nsix{} at
+        approximately \SI{100}{\degreeCelsius} in an LC vision cell
+    (a-c) and an Instec cell (d-f) viewed under cross polarizers. Both cells use a polyimide anti-parallel
+alignment layer. The LC vision cell has clear focal conics, while the Instec
+cell is entirely aligned. Both textures manifest chirality, seen as the distinct
+difference between the textures with a negative or positive out-of-plane
+electric field applied. The contrast between handed domains shows up clearly in
+the LC vision cells (compare (g) and (i)) while the contrast in the Instec cells
+is barely distinguishable. }
+\end{figure}
+
+On further cooling, the textures of both cells converge to familiar \smcapf{}
+switching, where the entire cell has an increase in birefringence under an
+applied electric field. 
+
+Solving this mystery will go a long way to advancing our understanding of how
+chirality develops and manifest in these soft-matter systems. We have a phase
+with a known chiral bulk-state (see the resonant x-ray scattering of \nsix{} at
+\SI{110}{\degreeCelsius}) that, in some cells (LC vision), shows its chiral nature, but in
+others (Instec), this chirality seems to be suppressed. The more conventional
+explanation, that this is still the same chiral \smcpalpha{} phase which appears
+to be achiral because of some fluke in the alignment would need to first be
+ruled out. 
+
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.9)  22 JUN 2019 16:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.9)  25 JUN 2019 11:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2230,13 +2230,31 @@ Package microtype Warning: Unknown slot number of character
 (microtype)                in font encoding `TS1' in protrusion list
 (microtype)                `cmr-textcomp'.
 
+
+LaTeX Warning: Citation `findeisen2008multistage' on page ix undefined on input
+ line 4.
+
+
+LaTeX Warning: Citation `takezoe2010antiferroelectric' on page ix undefined on 
+input line 4.
+
 [9
 
 ]
 Overfull \vbox (7.07149pt too high) has occurred while \output is active []
 
 
-[10] [11] [12] [13])
+[10]
+
+LaTeX Warning: Citation `levelut1999tensorial' on page xi undefined on input li
+ne 8.
+
+[11] [12]
+
+LaTeX Warning: Citation `eremin2008electrically' on page xiii undefined on inpu
+t line 22.
+
+[13] [14] [15])
 \tf@lof=\write7
 \openout7 = `aagreenthesis.lof'.
 
@@ -2246,7 +2264,7 @@ Overfull \vbox (7.07149pt too high) has occurred while \output is active []
 -------------------Beginning Body----------------------
 
 
-[14] [15]
+[16]
 \c__siunitx_mathsf_int=\count195
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
@@ -2319,10 +2337,134 @@ Overfull \hbox (46.83023pt too wide) in paragraph at lines 7--7
 
 LaTeX Warning: Marginpar on page 2 moved.
 
+
+LaTeX Warning: Citation `niori_distinct_1996' on page 2 undefined on input line
+ 10.
+
+
+LaTeX Warning: Citation `link_spontaneous_1997' on page 2 undefined on input li
+ne 10.
+
+
+LaTeX Warning: Citation `takezoe_bent-core_2006' on page 2 undefined on input l
+ine 13.
+
+
+LaTeX Warning: Citation `eremin_polar_2013' on page 2 undefined on input line 1
+3.
+
+
+LaTeX Warning: Citation `takezoe2017bent' on page 2 undefined on input line 13.
+
+
+
+LaTeX Warning: Citation `chattham_triclinic_2010' on page 2 undefined on input 
+line 13.
+
+
+LaTeX Warning: Citation `reddy_spontaneous_2011' on page 2 undefined on input l
+ine 13.
+
+
+LaTeX Warning: Citation `link_spontaneous_1997' on page 2 undefined on input li
+ne 19.
+
+
+LaTeX Warning: Citation `takezoe2010antiferroelectric' on page 2 undefined on i
+nput line 27.
+
+
+LaTeX Warning: Citation `mach_structural_1998' on page 2 undefined on input lin
+e 33.
+
+
+LaTeX Warning: Citation `levelut1999tensorial' on page 2 undefined on input lin
+e 33.
+
+
+LaTeX Warning: Citation `mach_structures_1999' on page 2 undefined on input lin
+e 33.
+
+
+LaTeX Warning: Citation `hirst2002interlayer' on page 2 undefined on input line
+ 33.
+
+
+LaTeX Warning: Citation `gleeson_resonant_2006' on page 2 undefined on input li
+ne 33.
+
+
+LaTeX Warning: Citation `Barois2012review' on page 2 undefined on input line 33
+.
+
+
+LaTeX Warning: Citation `folcia2014spontaneous' on page 2 undefined on input li
+ne 33.
+
+
+LaTeX Warning: Citation `huang2015liquid' on page 2 undefined on input line 33.
+
+
+
+LaTeX Warning: Citation `zhu2015probing' on page 2 undefined on input line 33.
+
+
+LaTeX Warning: Citation `zhu2016resonant' on page 2 undefined on input line 33.
+
+
+
+LaTeX Warning: Citation `salamonczyk2017structure' on page 2 undefined on input
+ line 33.
+
+
+LaTeX Warning: Citation `mach_structural_1998' on page 2 undefined on input lin
+e 36.
+
+
+LaTeX Warning: Citation `mach_structures_1999' on page 2 undefined on input lin
+e 36.
+
 [2
 
-] [3] [4]
-<figs/pal30/fromPaper/finalFigs/Figure1v3.png, id=487, 499.8675pt x 395.7987pt>
+]
+
+LaTeX Warning: Citation `takanishi2015chiral' on page 3 undefined on input line
+ 42.
+
+
+LaTeX Warning: Citation `abberley2018heliconical' on page 3 undefined on input 
+line 44.
+
+
+LaTeX Warning: Citation `sreenilayam_spontaneous_2016' on page 3 undefined on i
+nput line 46.
+
+
+LaTeX Warning: Citation `panarin_sequence_2011' on page 3 undefined on input li
+ne 47.
+
+
+LaTeX Warning: Citation `sreenilayam_properties_2012' on page 3 undefined on in
+put line 47.
+
+
+LaTeX Warning: Citation `wang2011defining' on page 3 undefined on input line 67
+.
+
+
+LaTeX Warning: Citation `liu2016resonant' on page 3 undefined on input line 67.
+
+
+
+LaTeX Warning: Citation `ilavsky2012nika' on page 3 undefined on input line 78.
+
+
+
+LaTeX Warning: Citation `zhang2010glassy' on page 3 undefined on input line 78.
+
+
+[3] [4]
+<figs/pal30/fromPaper/finalFigs/Figure1v3.png, id=464, 499.8675pt x 395.7987pt>
 File: figs/pal30/fromPaper/finalFigs/Figure1v3.png Graphic file (type png)
 <use figs/pal30/fromPaper/finalFigs/Figure1v3.png>
 Package pdftex.def Info: figs/pal30/fromPaper/finalFigs/Figure1v3.png used on i
@@ -2330,10 +2472,26 @@ nput line 103.
 (pdftex.def)             Requested size: 422.77661pt x 334.76964pt.
 
 
+LaTeX Warning: Citation `findeisen2008multistage' on page 5 undefined on input 
+line 136.
+
+
+LaTeX Warning: Citation `takezoe2010antiferroelectric' on page 5 undefined on i
+nput line 136.
+
+
+LaTeX Warning: Citation `findeisen2008multistage' on page 5 undefined on input 
+line 136.
+
+
+LaTeX Warning: Citation `takezoe2010antiferroelectric' on page 5 undefined on i
+nput line 136.
+
+
 LaTeX Warning: Float too large for page by 18.44496pt on input line 137.
 
 
-<figs/pal30/fromPaper/figsForThesis/dsc/dsc-slowrun.pdf, id=493, 418.56375pt x 
+<figs/pal30/fromPaper/figsForThesis/dsc/dsc-slowrun.pdf, id=466, 418.56375pt x 
 255.95625pt>
 File: figs/pal30/fromPaper/figsForThesis/dsc/dsc-slowrun.pdf Graphic file (type
  pdf)
@@ -2361,43 +2519,44 @@ LaTeX Warning: Citation `edThesis' on page 5 undefined on input line 185.
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
 l.186 
-       <./figs/pal30/fromPaper/finalFigs/Figure1v3.png>] [7pdfTeX warning (ext4
-): destination with the same identifier (name{figure.2.2}) has been already use
-d, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.197 
-       <./figs/pal30/fromPaper/figsForThesis/dsc/dsc-slowrun.pdf>]
-<figs/pal30/xraysm1/sm1-xray-annote.png, id=525, 492.52005pt x 210.3057pt>
+       <./figs/pal30/fromPaper/finalFigs/Figure1v3.png>]
+<figs/pal30/xraysm1/sm1-xray-annote.png, id=479, 492.52005pt x 210.3057pt>
 File: figs/pal30/xraysm1/sm1-xray-annote.png Graphic file (type png)
 
 <use figs/pal30/xraysm1/sm1-xray-annote.png>
 Package pdftex.def Info: figs/pal30/xraysm1/sm1-xray-annote.png used on input l
 ine 201.
 (pdftex.def)             Requested size: 469.75499pt x 200.59152pt.
- [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
-}) has been already used, duplicate ignored
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}
+) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.234 
-       <./figs/pal30/xraysm1/sm1-xray-annote.png>]
-<figs/pal30/rsoxssm2/sm2-rsoxs.png, id=534, 349.7868pt x 398.08725pt>
+l.218 
+       <./figs/pal30/fromPaper/figsForThesis/dsc/dsc-slowrun.pdf>]
+<figs/pal30/rsoxssm2/sm2-rsoxs.png, id=502, 349.7868pt x 398.08725pt>
 File: figs/pal30/rsoxssm2/sm2-rsoxs.png Graphic file (type png)
 
 <use figs/pal30/rsoxssm2/sm2-rsoxs.png>
 Package pdftex.def Info: figs/pal30/rsoxssm2/sm2-rsoxs.png used on input line 2
 37.
 (pdftex.def)             Requested size: 375.80542pt x 427.69855pt.
- [9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4
-}) has been already used, duplicate ignored
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}
+) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
 l.253 
-       <./figs/pal30/rsoxssm2/sm2-rsoxs.png>]
-<figs/pal30/fromPaper/finalFigs/xray-combined.png, id=540, 226.32555pt x 250.05
+       <./figs/pal30/xraysm1/sm1-xray-annote.png>]
+<figs/pal30/fromPaper/finalFigs/xray-combined.png, id=508, 226.32555pt x 250.05
 42pt>
 File: figs/pal30/fromPaper/finalFigs/xray-combined.png Graphic file (type png)
  <use figs/pal30/fromPaper/finalFigs/xray-combined.png>
@@ -2405,21 +2564,62 @@ Package pdftex.def Info: figs/pal30/fromPaper/finalFigs/xray-combined.png used
 on input line 256.
 (pdftex.def)             Requested size: 281.85585pt x 311.4223pt.
 
-<figs/pal30/textureSM1/sm1Textures100.png, id=551, 1130.3028pt x 249.3315pt>
+
+LaTeX Warning: Citation `levelut1999tensorial' on page 9 undefined on input lin
+e 268.
+
+
+LaTeX Warning: Citation `levelut1999tensorial' on page 9 undefined on input lin
+e 268.
+
+
+LaTeX Warning: Citation `levelut1999tensorial' on page 9 undefined on input lin
+e 274.
+
+
+LaTeX Warning: Citation `gleeson_resonant_2006' on page 9 undefined on input li
+ne 274.
+
+
+LaTeX Warning: Citation `Barois2012review' on page 9 undefined on input line 27
+4.
+
+
+LaTeX Warning: Citation `levelut1999tensorial' on page 9 undefined on input lin
+e 285.
+
+
+LaTeX Warning: Citation `levelut1999tensorial' on page 9 undefined on input lin
+e 291.
+
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}
+) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.298 
+       <./figs/pal30/rsoxssm2/sm2-rsoxs.png>] [10pdfTeX warning (ext4): destina
+tion with the same identifier (name{figure.2.5}) has been already used, duplica
+te ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.298 
+       <./figs/pal30/fromPaper/finalFigs/xray-combined.png>]
+<figs/pal30/textureSM1/sm1Textures100.png, id=523, 1130.3028pt x 249.3315pt>
 File: figs/pal30/textureSM1/sm1Textures100.png Graphic file (type png)
 
 <use figs/pal30/textureSM1/sm1Textures100.png>
 Package pdftex.def Info: figs/pal30/textureSM1/sm1Textures100.png used on input
  line 307.
 (pdftex.def)             Requested size: 469.75499pt x 103.6228pt.
- [10] [11pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.2.5}) has been already used, duplicate ignored
+ [11]
 
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.312 
-       <./figs/pal30/fromPaper/finalFigs/xray-combined.png>]
-<figs/pal30/fromPaper/finalFigs/threshold-inset2.png, id=571, 220.1826pt x 154.
+LaTeX Warning: Citation `eremin2008electrically' on page 12 undefined on input 
+line 324.
+
+
+<figs/pal30/fromPaper/finalFigs/threshold-inset2.png, id=536, 220.1826pt x 154.
 05556pt>
 File: figs/pal30/fromPaper/finalFigs/threshold-inset2.png Graphic file (type pn
 g)
@@ -2427,63 +2627,65 @@ g)
 Package pdftex.def Info: figs/pal30/fromPaper/finalFigs/threshold-inset2.png us
 ed on input line 338.
 (pdftex.def)             Requested size: 281.85585pt x 197.22804pt.
- [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-6}) has been already used, duplicate ignored
 
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.351 
-       <./figs/pal30/textureSM1/sm1Textures100.png>]
-<figs/pal30/fromPaper/finalFigs/theory-biref.png, id=584, 501.072pt x 450.2421p
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<figs/pal30/fromPaper/finalFigs/theory-biref.png, id=543, 501.072pt x 450.2421p
 t>
 File: figs/pal30/fromPaper/finalFigs/theory-biref.png Graphic file (type png)
  <use figs/pal30/fromPaper/finalFigs/theory-biref.png>
 Package pdftex.def Info: figs/pal30/fromPaper/finalFigs/theory-biref.png used o
 n input line 373.
 (pdftex.def)             Requested size: 375.80542pt x 337.68759pt.
- [13pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-7}) has been already used, duplicate ignored
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+6}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
 l.378 
+       <./figs/pal30/textureSM1/sm1Textures100.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7
+}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.388 
        <./figs/pal30/fromPaper/finalFigs/threshold-inset2.png>]
-<figs/pal30/textureSM2/sm2Textures100.png, id=592, 1128.8574pt x 247.1634pt>
+<figs/pal30/textureSM2/sm2Textures100.png, id=557, 1128.8574pt x 247.1634pt>
 File: figs/pal30/textureSM2/sm2Textures100.png Graphic file (type png)
 
 <use figs/pal30/textureSM2/sm2Textures100.png>
 Package pdftex.def Info: figs/pal30/textureSM2/sm2Textures100.png used on input
  line 391.
 (pdftex.def)             Requested size: 469.75499pt x 102.85374pt.
- [14pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-8}) has been already used, duplicate ignored
 
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.395 \end{figure}
-                   <./figs/pal30/fromPaper/finalFigs/theory-biref.png>]
-<figs/pal30/texturesm4/sm4Textures100.png, id=599, 1128.8574pt x 247.1634pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `li1995reversible' on page 14 undefined on input line 4
+03.
+
+<figs/pal30/texturesm4/sm4Textures100.png, id=558, 1128.8574pt x 247.1634pt>
 File: figs/pal30/texturesm4/sm4Textures100.png Graphic file (type png)
 
 <use figs/pal30/texturesm4/sm4Textures100.png>
 Package pdftex.def Info: figs/pal30/texturesm4/sm4Textures100.png used on input
  line 407.
 (pdftex.def)             Requested size: 469.75499pt x 102.85374pt.
- [15pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-9}) has been already used, duplicate ignored
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+8}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.426 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-2.10}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.426 
-       <./figs/pal30/textureSM2/sm2Textures100.png> <./figs/pal30/texturesm4/sm
-4Textures100.png>]
-<figs/pal30/fromPaper/finalFigs/polzv9.png, id=609, 735.82906pt x 480.8364pt>
+l.412 
+       <./figs/pal30/fromPaper/finalFigs/theory-biref.png>]
+<figs/pal30/fromPaper/finalFigs/polzv9.png, id=566, 735.82906pt x 480.8364pt>
 File: figs/pal30/fromPaper/finalFigs/polzv9.png Graphic file (type png)
 
 <use figs/pal30/fromPaper/finalFigs/polzv9.png>
@@ -2491,7 +2693,24 @@ Package pdftex.def Info: figs/pal30/fromPaper/finalFigs/polzv9.png used on inpu
 t line 429.
 (pdftex.def)             Requested size: 469.75499pt x 306.97119pt.
 
-<figs/pal30/prc/3dplot-sm1.png, id=610, 708.90848pt x 284.0211pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9
+}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.440 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.10}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.440 
+       <./figs/pal30/textureSM2/sm2Textures100.png> <./figs/pal30/texturesm4/sm
+4Textures100.png>]
+<figs/pal30/prc/3dplot-sm1.png, id=574, 708.90848pt x 284.0211pt>
 File: figs/pal30/prc/3dplot-sm1.png Graphic file (type png)
 
 <use figs/pal30/prc/3dplot-sm1.png>
@@ -2501,41 +2720,52 @@ Package pdftex.def Info: figs/pal30/prc/3dplot-sm1.png used on input line 443.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
-1}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.455 
-       <./figs/pal30/fromPaper/finalFigs/polzv9.png (PNG copy)>]
-<figs/pal30/prc/PRCvsTilt/PRCVtilt.png, id=618, 481.3182pt x 294.50024pt>
+<figs/pal30/prc/PRCvsTilt/PRCVtilt.png, id=576, 481.3182pt x 294.50024pt>
 File: figs/pal30/prc/PRCvsTilt/PRCVtilt.png Graphic file (type png)
 
 <use figs/pal30/prc/PRCvsTilt/PRCVtilt.png>
 Package pdftex.def Info: figs/pal30/prc/PRCvsTilt/PRCVtilt.png used on input li
 ne 458.
 (pdftex.def)             Requested size: 281.85585pt x 172.45494pt.
- [17pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-12}) has been already used, duplicate ignored
 
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.478 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-2.13}) has been already used, duplicate ignored
 
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.478 
-       <./figs/pal30/prc/3dplot-sm1.png> <./figs/pal30/prc/PRCvsTilt/PRCVtilt.p
-ng>] <figs/pal30/prc/3dplot-sm2.png, id=628, 708.90848pt x 284.0211pt>
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/pal30/prc/3dplot-sm2.png, id=580, 708.90848pt x 284.0211pt>
 File: figs/pal30/prc/3dplot-sm2.png Graphic file (type png)
 
 <use figs/pal30/prc/3dplot-sm2.png>
 Package pdftex.def Info: figs/pal30/prc/3dplot-sm2.png used on input line 482.
 (pdftex.def)             Requested size: 469.75499pt x 188.20424pt.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+11}) has been already used, duplicate ignored
 
-<figs/pal30/prc/3dplot-sm34.png, id=630, 708.90848pt x 284.0211pt>
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.485 \end{figure}
+                   <./figs/pal30/fromPaper/finalFigs/polzv9.png (PNG copy)>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+2}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.492 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.13}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.492 
+       <./figs/pal30/prc/3dplot-sm1.png> <./figs/pal30/prc/PRCvsTilt/PRCVtilt.p
+ng>]
+
+LaTeX Warning: Citation `shen2011effective' on page 18 undefined on input line 
+499.
+
+<figs/pal30/prc/3dplot-sm34.png, id=592, 708.90848pt x 284.0211pt>
 File: figs/pal30/prc/3dplot-sm34.png Graphic file (type png)
 
 <use figs/pal30/prc/3dplot-sm34.png>
@@ -2546,32 +2776,48 @@ Package pdftex.def Info: figs/pal30/prc/3dplot-sm34.png used on input line 503.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
-4}) has been already used, duplicate ignored
 
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.516 $$
-         <./figs/pal30/prc/3dplot-sm2.png>]
-<figs/pal30/fromPaper/finalFigs/dvAlign.png, id=637, 496.13354pt x 218.61674pt>
+<figs/pal30/fromPaper/finalFigs/dvAlign.png, id=593, 496.13354pt x 218.61674pt>
 File: figs/pal30/fromPaper/finalFigs/dvAlign.png Graphic file (type png)
 <use figs/pal30/fromPaper/finalFigs/dvAlign.png>
 Package pdftex.def Info: figs/pal30/fromPaper/finalFigs/dvAlign.png used on inp
 ut line 532.
 (pdftex.def)             Requested size: 469.75499pt x 206.9942pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[19pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
-5}) has been already used, duplicate ignored
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+14}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.549 
-       <./figs/pal30/prc/3dplot-sm34.png>]) (./chap3-homolog.tex [20pdfTeX warn
-ing (ext4): destination with the same identifier (name{figure.2.16}) has been a
-lready used, duplicate ignored
+l.536 
+       <./figs/pal30/prc/3dplot-sm2.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `mach_structural_1998' on page 19 undefined on input li
+ne 540.
+
+
+LaTeX Warning: Citation `mach_structures_1999' on page 19 undefined on input li
+ne 540.
+
+
+LaTeX Warning: Citation `hirst2002interlayer' on page 19 undefined on input lin
+e 540.
+
+
+LaTeX Warning: Citation `huang2015liquid' on page 19 undefined on input line 54
+0.
+
+) (./chap3-homolog.tex [19pdfTeX warning (ext4): destination with the same iden
+tifier (name{figure.2.15}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.3 ...he \nfour{} Homologous Series of Molecules}
+                                                   <./figs/pal30/prc/3dplot-sm3
+4.png>] [20pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.2.16}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
@@ -2580,6 +2826,18 @@ l.3 ...he \nfour{} Homologous Series of Molecules}
 lFigs/dvAlign.png>]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 3.
 centered
+
+LaTeX Warning: Citation `SreenilayamSpontaneoushelixformation2016' on page 21 u
+ndefined on input line 10.
+
+
+LaTeX Warning: Citation `SreenilayamDevelopmentferroelectricitysmectic2017' on 
+page 21 undefined on input line 10.
+
+
+LaTeX Warning: Citation `VijInvestigationheliconicalsmectic2019' on page 21 und
+efined on input line 10.
+
 ! Undefined control sequence.
 <argument> \nano \meters 
                          
@@ -2645,7 +2903,7 @@ Overfull \hbox (29.67549pt too wide) in paragraph at lines 84--84
 \T1/cmr/m/n/12 (-20) gennes/noels 
  []
 
-<./figs/pal30/prc/PRCvsTilt/PRCVtilt.png, id=668, 481.3182pt x 294.50024pt>
+<./figs/pal30/prc/PRCvsTilt/PRCVtilt.png, id=619, 481.3182pt x 294.50024pt>
 File: ./figs/pal30/prc/PRCvsTilt/PRCVtilt.png Graphic file (type png)
 
 <use ./figs/pal30/prc/PRCvsTilt/PRCVtilt.png>
@@ -2660,10 +2918,6 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: Citation `michi' on page 24 undefined on input line 136.
 
-
-LaTeX Warning: Reference `fig:homog:pal30pvt' on page 24 undefined on input lin
-e 142.
-
 [24pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
 }) has been already used, duplicate ignored
 
@@ -2671,161 +2925,347 @@ e 142.
                                                   
 l.156 
        <./figs/pal30/prc/PRCvsTilt/PRCVtilt.png>]
-Overfull \hbox (8.75516pt too wide) in paragraph at lines 178--178
+
+LaTeX Warning: Citation `link_spontaneous_1997' on page 25 undefined on input l
+ine 167.
+
+
+LaTeX Warning: Citation `eremin2008electrically' on page 25 undefined on input 
+line 179.
+
+
+Overfull \hbox (8.75516pt too wide) in paragraph at lines 181--181
 \T1/cmr/m/n/12 (-20) molecule  
  []
 
 
-Overfull \hbox (8.75516pt too wide) in paragraph at lines 178--178
+Overfull \hbox (8.75516pt too wide) in paragraph at lines 181--181
 \T1/cmr/m/n/12 (-20) molecule  
  []
 
 
-Overfull \hbox (8.75516pt too wide) in paragraph at lines 178--178
+Overfull \hbox (8.75516pt too wide) in paragraph at lines 181--181
 \T1/cmr/m/n/12 (-20) molecule  
  []
 
 
-Overfull \hbox (8.75516pt too wide) in paragraph at lines 178--178
+Overfull \hbox (8.75516pt too wide) in paragraph at lines 181--181
 \T1/cmr/m/n/12 (-20) molecule  
  []
 
-<./figs/pal30/fromPapers/tiltVfield.jpg, id=687, 304.7385pt x 199.34476pt>
+<./figs/pal30/fromPapers/tiltVfield.jpg, id=637, 304.7385pt x 199.34476pt>
 File: ./figs/pal30/fromPapers/tiltVfield.jpg Graphic file (type jpg)
 
 <use ./figs/pal30/fromPapers/tiltVfield.jpg>
 Package pdftex.def Info: ./figs/pal30/fromPapers/tiltVfield.jpg used on input l
-ine 181.
+ine 184.
 (pdftex.def)             Requested size: 469.75499pt x 307.30818pt.
 
 
-LaTeX Warning: Marginpar on page 25 moved.
+LaTeX Warning: Citation `eremin2008electrically' on page 25 undefined on input 
+line 186.
+
+
+LaTeX Warning: Citation `eremin2008electrically' on page 25 undefined on input 
+line 186.
 
 [25] [26pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.3.2}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.193 \begin{multline}
-                       <./figs/pal30/fromPapers/tiltVfield.jpg>]
-<figs/pal30/textureSM2/sm1Textures100.png, id=702, 1130.3028pt x 249.3315pt>
+l.193 
+       <./figs/pal30/fromPapers/tiltVfield.jpg>]
+Overfull \hbox (1.08035pt too wide) in paragraph at lines 232--232
+[][][][]\T1/cmr/m/n/12 (-20) include 
+ []
+
+
+Overfull \hbox (1.08035pt too wide) in paragraph at lines 232--232
+[][][][]\T1/cmr/m/n/12 (-20) include 
+ []
+
+
+Overfull \hbox (1.08035pt too wide) in paragraph at lines 232--232
+[][][][]\T1/cmr/m/n/12 (-20) include 
+ []
+
+
+Overfull \hbox (1.08035pt too wide) in paragraph at lines 232--232
+[][][][]\T1/cmr/m/n/12 (-20) include 
+ []
+
+[27]
+
+LaTeX Warning: Marginpar on page 28 moved.
+
+<figs/pal30/textureSM2/sm1Textures100.png, id=657, 1130.3028pt x 249.3315pt>
 File: figs/pal30/textureSM2/sm1Textures100.png Graphic file (type png)
 
 <use figs/pal30/textureSM2/sm1Textures100.png>
 Package pdftex.def Info: figs/pal30/textureSM2/sm1Textures100.png used on input
- line 222.
+ line 243.
 (pdftex.def)             Requested size: 375.80542pt x 82.89597pt.
 
-<figs/pal30/prc/spacedSm1PRC.png, id=703, 356.2911pt x 283.65974pt>
+<figs/pal30/prc/spacedSm1PRC.png, id=658, 356.2911pt x 283.65974pt>
 File: figs/pal30/prc/spacedSm1PRC.png Graphic file (type png)
 
 <use figs/pal30/prc/spacedSm1PRC.png>
-Package pdftex.def Info: figs/pal30/prc/spacedSm1PRC.png used on input line 231
+Package pdftex.def Info: figs/pal30/prc/spacedSm1PRC.png used on input line 252
 .
 (pdftex.def)             Requested size: 375.80542pt x 299.20193pt.
- [27pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-3}) has been already used, duplicate ignored
 
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.235 
-       <./figs/pal30/textureSM2/sm1Textures100.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: figs/pal30/prc/3dplot-sm1.png Graphic file (type png)
-
 <use figs/pal30/prc/3dplot-sm1.png>
-Package pdftex.def Info: figs/pal30/prc/3dplot-sm1.png used on input line 238.
+Package pdftex.def Info: figs/pal30/prc/3dplot-sm1.png used on input line 259.
 (pdftex.def)             Requested size: 375.80542pt x 150.56079pt.
 
-<figs/pal30/xraysm1/rsosxSmaT113-modified.png, id=711, 338.62788pt x 338.4759pt
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<figs/pal30/xraysm1/rsosxSmaT113-modified.png, id=659, 338.62788pt x 338.4759pt
 >
 File: figs/pal30/xraysm1/rsosxSmaT113-modified.png Graphic file (type png)
  <use figs/pal30/xraysm1/rsosxSmaT113-modified.png>
 Package pdftex.def Info: figs/pal30/xraysm1/rsosxSmaT113-modified.png used on i
-nput line 247.
+nput line 268.
 (pdftex.def)             Requested size: 375.80542pt x 375.63522pt.
- [28pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-4}) has been already used, duplicate ignored
 
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.249 \end{figure}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{figure.3.5}) has been already used, duplicate ignored
 
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.249 \end{figure}
-                   <./figs/pal30/prc/spacedSm1PRC.png>]
-<figs/pal30/xraysm1/sm1-saxs-annote.png, id=718, 279.32355pt x 178.14555pt>
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/pal30/xraysm1/sm1-saxs-annote.png, id=660, 279.32355pt x 178.14555pt>
 File: figs/pal30/xraysm1/sm1-saxs-annote.png Graphic file (type png)
 
 <use figs/pal30/xraysm1/sm1-saxs-annote.png>
 Package pdftex.def Info: figs/pal30/xraysm1/sm1-saxs-annote.png used on input l
-ine 254.
+ine 275.
 (pdftex.def)             Requested size: 279.32285pt x 178.14511pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/pal30/deVries/dvAlign.png, id=719, 496.13354pt x 218.61674pt>
+<figs/pal30/deVries/dvAlign.png, id=661, 496.13354pt x 218.61674pt>
 File: figs/pal30/deVries/dvAlign.png Graphic file (type png)
 
 <use figs/pal30/deVries/dvAlign.png>
-Package pdftex.def Info: figs/pal30/deVries/dvAlign.png used on input line 264.
+Package pdftex.def Info: figs/pal30/deVries/dvAlign.png used on input line 285.
 
 (pdftex.def)             Requested size: 496.13232pt x 218.6162pt.
 
-Overfull \hbox (26.37733pt too wide) in paragraph at lines 264--265
+Overfull \hbox (26.37733pt too wide) in paragraph at lines 285--286
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./chap4-racetrack.tex [29pdfTeX warning (ext4): destination with the same id
-entifier (name{figure.3.6}) has been already used, duplicate ignored
+
+LaTeX Warning: Marginpar on page 28 moved.
+
+
+LaTeX Warning: Reference `fig:n16textureCompare' on page 28 undefined on input 
+line 301.
+
+[28pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
+}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.305 
+       <./figs/pal30/textureSM2/sm1Textures100.png>] [29pdfTeX warning (ext4): 
+destination with the same identifier (name{figure.3.4}) has been already used, 
+duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.311 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3.5}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.311 
+       <./figs/pal30/prc/spacedSm1PRC.png>] [30pdfTeX warning (ext4): destinati
+on with the same identifier (name{figure.3.6}) has been already used, duplicate
+ ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.324 
+       <./figs/pal30/xraysm1/rsosxSmaT113-modified.png (PNG copy)>] [31pdfTeX w
+arning (ext4): destination with the same identifier (name{figure.3.7}) has been
+ already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.331 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3.8}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.331 
+       <./figs/pal30/xraysm1/sm1-saxs-annote.png> <./figs/pal30/deVries/dvAlign
+.png>] <figs/pal30/future/LCvIn116.png, id=690, 1129.5801pt x 677.8926pt>
+File: figs/pal30/future/LCvIn116.png Graphic file (type png)
+
+<use figs/pal30/future/LCvIn116.png>
+Package pdftex.def Info: figs/pal30/future/LCvIn116.png used on input line 335.
+
+(pdftex.def)             Requested size: 469.75499pt x 281.90977pt.
+ [32pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+9}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.364 
+       <./figs/pal30/future/LCvIn116.png>]
+<figs/pal30/future/LCvIn110.png, id=698, 1129.5801pt x 677.8926pt>
+File: figs/pal30/future/LCvIn110.png Graphic file (type png)
+
+<use figs/pal30/future/LCvIn110.png>
+Package pdftex.def Info: figs/pal30/future/LCvIn110.png used on input line 367.
+
+(pdftex.def)             Requested size: 469.75499pt x 281.90977pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:future:n16t100' on page 33 undefined on input lin
+e 380.
+
+
+LaTeX Warning: Reference `fig:future:n16t100' on page 33 undefined on input lin
+e 384.
+
+
+LaTeX Warning: Reference `fig:future:n16t100' on page 33 undefined on input lin
+e 387.
+
+<figs/pal30/future/LCvIn100.png, id=701, 1129.5801pt x 677.8926pt>
+File: figs/pal30/future/LCvIn100.png Graphic file (type png)
+
+<use figs/pal30/future/LCvIn100.png>
+Package pdftex.def Info: figs/pal30/future/LCvIn100.png used on input line 401.
+
+(pdftex.def)             Requested size: 469.75499pt x 281.90977pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33]) (./chap4-racetrack.tex [34pdfTeX warning (ext4): destination with the sam
+e identifier (name{figure.3.10}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
 l.4 ...r{Metrology Applications of Fluid Crystals}
-                                                   <./figs/pal30/xraysm1/rsosxS
-maT113-modified.png (PNG copy)>] [30pdfTeX warning (ext4): destination with the
- same identifier (name{figure.3.7}) has been already used, duplicate ignored
+                                                   <./figs/pal30/future/LCvIn11
+0.png>] [35pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.3.11}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
 l.4 ...r{Metrology Applications of Fluid Crystals}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{figure.3.8}) has been already used, duplic
-ate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.4 ...r{Metrology Applications of Fluid Crystals}
-                                                   <./figs/pal30/xraysm1/sm1-sa
-xs-annote.png> <./figs/pal30/deVries/dvAlign.png>]
+                                                   <./figs/pal30/future/LCvIn10
+0.png>]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 4.
 centered
-<./figs/racetrack/intro/Figure1.pdf, id=735, 219.11108pt x 223.63849pt>
+
+LaTeX Warning: Citation `YoungLightScatteringStudyTwoDimensional1978' on page 3
+6 undefined on input line 10.
+
+
+LaTeX Warning: Citation `RosenblattFreelySuspendedFerroelectric1979' on page 36
+ undefined on input line 10.
+
+
+LaTeX Warning: Citation `PindakTwodimensionalsystems1982' on page 36 undefined 
+on input line 10.
+
+<./figs/racetrack/intro/Figure1.pdf, id=718, 219.11108pt x 223.63849pt>
 File: ./figs/racetrack/intro/Figure1.pdf Graphic file (type pdf)
 
 <use ./figs/racetrack/intro/Figure1.pdf>
 Package pdftex.def Info: ./figs/racetrack/intro/Figure1.pdf used on input line 
 15.
 (pdftex.def)             Requested size: 281.85585pt x 287.69972pt.
- [31
+ [36
 
-] [32pdfTeX warning (ext4): destination with the same identifier (name{figure.4
-.1}) has been already used, duplicate ignored
+]
+
+LaTeX Warning: Citation `QiMutualDiffusionInclusions2014' on page 37 undefined 
+on input line 45.
+
+
+LaTeX Warning: Citation `KuriabovaHydrodynamicinteractionsfreely2016' on page 3
+7 undefined on input line 45.
+
+
+LaTeX Warning: Citation `QiActivemicrorheologysmectic2017' on page 37 undefined
+ on input line 46.
+
+
+LaTeX Warning: Citation `Parmarnovelboundarylayer1991' on page 37 undefined on 
+input line 47.
+
+
+LaTeX Warning: Citation `ParmarPressuresensorusing1994' on page 37 undefined on
+ input line 48.
+
+
+LaTeX Warning: Citation `YablonskiiPressuresensorbased2002' on page 37 undefine
+d on input line 48.
+
+[37pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
 l.51 
-      <./figs/racetrack/intro/Figure1.pdf>] [33]
+      <./figs/racetrack/intro/Figure1.pdf>]
 
-LaTeX Warning: Citation `Deschamps2008' on page 34 undefined on input line 78.
+LaTeX Warning: Citation `RosenblattOpticaldeterminationsmectic1980' on page 38 
+undefined on input line 58.
 
-<./figs/racetrack/theory/theory-final.pdf, id=788, 232.99542pt x 213.04628pt>
+
+LaTeX Warning: Citation `AllantrackpyTrackpyv02018' on page 38 undefined on inp
+ut line 60.
+
+
+LaTeX Warning: Citation `DracosParticleTrackingVelocimetry1996' on page 38 unde
+fined on input line 61.
+
+
+LaTeX Warning: Citation `Adamczyk2Dimensionalparticletracking1988' on page 38 u
+ndefined on input line 61.
+
+
+LaTeX Warning: Citation `AdrianParticleImageVelocimetry2011' on page 38 undefin
+ed on input line 61.
+
+
+LaTeX Warning: Citation `RaffelParticleImageVelocimetry2018' on page 38 undefin
+ed on input line 61.
+
+[38]
+
+LaTeX Warning: Citation `Deschamps2008' on page 39 undefined on input line 78.
+
+
+LaTeX Warning: Citation `GovierFlowComplexMixtures2008' on page 39 undefined on
+ input line 97.
+
+
+LaTeX Warning: Citation `HuhUseAirLiquidTwoPhase2002' on page 39 undefined on i
+nput line 97.
+
+<./figs/racetrack/theory/theory-final.pdf, id=742, 232.99542pt x 213.04628pt>
 File: ./figs/racetrack/theory/theory-final.pdf Graphic file (type pdf)
 
 <use ./figs/racetrack/theory/theory-final.pdf>
@@ -2837,68 +3277,58 @@ Package pdftex.def Info: ./figs/racetrack/theory/theory-final.pdf used on input
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Citation `Schneider2006' on page 34 undefined on input line 129.
+LaTeX Warning: Citation `Schneider2006' on page 39 undefined on input line 129.
 
 
-[34] [35pdfTeX warning (ext4): destination with the same identifier (name{figur
+[39] [40pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.4.2}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
 l.143 
        <./figs/racetrack/theory/theory-final.pdf>]
-<./figs/racetrack/simulation/simulation.pdf, id=825, 257.77052pt x 378.69865pt>
+
+LaTeX Warning: Citation `Wellertensorialapproachcomputational1998' on page 41 u
+ndefined on input line 159.
+
+
+<./figs/racetrack/simulation/simulation.pdf, id=776, 257.77052pt x 378.69865pt>
 File: ./figs/racetrack/simulation/simulation.pdf Graphic file (type pdf)
 <use ./figs/racetrack/simulation/simulation.pdf>
 Package pdftex.def Info: ./figs/racetrack/simulation/simulation.pdf used on inp
 ut line 189.
 (pdftex.def)             Requested size: 281.85585pt x 414.11395pt.
- [36] [37pdfTeX warning (ext4): destination with the same identifier (name{figu
+ [41] [42pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.4.3}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
 l.212 
        <./figs/racetrack/simulation/simulation.pdf>]
-<./figs/racetrack/bigfigure/mainresults.png, id=879, 231.0231pt x 293.05486pt>
+<./figs/racetrack/bigfigure/mainresults.png, id=829, 231.0231pt x 293.05486pt>
 File: ./figs/racetrack/bigfigure/mainresults.png Graphic file (type png)
 
 <use ./figs/racetrack/bigfigure/mainresults.png>
 Package pdftex.def Info: ./figs/racetrack/bigfigure/mainresults.png used on inp
 ut line 217.
 (pdftex.def)             Requested size: 281.85585pt x 357.57109pt.
- [38] [39pdfTeX warning (ext4): destination with the same identifier (name{figu
+ [43] [44pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.4.4}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
 l.277 
-       <./figs/racetrack/bigfigure/mainresults.png>]) (./aagreenthesis.bbl
-[40]
-centered
-
-Underfull \hbox (badness 1360) in paragraph at lines 38--45
-[]\T1/cmr/m/n/12 (+20) Th. Dra-cos.  Par-ti-cle Track-ing Ve-locime-try (PTV). 
- In Th. Dra-cos, ed-i-tor,
- []
-
-[41
-
-] [42] [43] [44]) [45]
+       <./figs/racetrack/bigfigure/mainresults.png>])
+No file aagreenthesis.bbl.
+[45]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
  (./aagreenthesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
+Package rerunfilecheck Info: File `aagreenthesis.out' has not changed.
+(rerunfilecheck)             Checksum: 6D6BD740C97AA6AB1957A5CB3B43F5ED;2224.
 
-
-Package rerunfilecheck Warning: File `aagreenthesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `aagreenthesis.out':
-(rerunfilecheck)             Before: 99BFFE99744025B8A44980327F364177;2181
-(rerunfilecheck)             After:  7833F5B5DEBA5E8289DAD813309C4E57;2181.
 
 LaTeX Warning: There were undefined references.
 
@@ -2908,38 +3338,35 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
- 29599 strings out of 493029
- 584440 string characters out of 6136235
- 687328 words of memory out of 5000000
- 32283 multiletter control sequences out of 15000+600000
- 36795 words of font info for 179 fonts, out of 8000000 for 9000
+ 29614 strings out of 493029
+ 584245 string characters out of 6136235
+ 710000 words of memory out of 5000000
+ 32331 multiletter control sequences out of 15000+600000
+ 37108 words of font info for 184 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,14n,77p,10388b,1252s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{chapter*.10} has been referenced but does not exi
-st, replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fo
-nts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.
-pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texm
-f/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public
-/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.p
-fb>
-Output written on aagreenthesis.pdf (60 pages, 68295308 bytes).
+ 69i,14n,77p,10388b,1346s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
+fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx144
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200
+.pfb>
+Output written on aagreenthesis.pdf (61 pages, 75665654 bytes).
 PDF statistics:
- 1024 PDF objects out of 1200 (max. 8388607)
- 851 compressed objects within 9 object streams
- 187 named destinations out of 1000 (max. 500000)
- 38772 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 942 PDF objects out of 1000 (max. 8388607)
+ 767 compressed objects within 8 object streams
+ 142 named destinations out of 1000 (max. 500000)
+ 38787 words of extra memory for PDF output out of 42996 (max. 10000000)
 
